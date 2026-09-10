@@ -1,0 +1,32 @@
+{
+	"Animation": {
+		"Name": "AllyIdle",
+		"Loop": "Loop",
+		"Duration": 1,
+		"Links": [
+			{
+				"Type": "Transform",
+				"Flags": [
+					"RotationExists",
+					"RotationConst",
+					"TranslationExists",
+					"TranslationXConst",
+					"TranslationZConst"
+				],
+				"Curves": [
+					0, 0, 0,
+					0, 0, 0
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Cubic",
+				"Data": [
+					  0, 0,		0.05,	-0.05, 0,
+					  1, 0,    0,    0,		0
+				]
+			}
+		]
+	}
+}

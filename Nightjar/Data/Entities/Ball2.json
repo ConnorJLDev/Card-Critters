@@ -1,0 +1,23 @@
+{
+  "Entity": {
+    "Name": "Ball2",
+    "Components": {
+      "Transform": {
+        "Position": [150.0, -20.0],
+        "Rotation": 0.0,
+        "Scale": [80.0, 80.0]
+      },
+      "Physics": {
+        "Acceleration": [0.0, 0.0],
+        "Velocity": [0.0, 0.0],
+        "RotationalVelocity": 60.0
+      },
+      "Sprite": {
+        "SpriteSource": "Ball",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+		"Zlayer": 2
+      }
+    }
+  }
+}

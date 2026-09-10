@@ -1,0 +1,12 @@
+{
+  "Entity": {
+    "Name": "Camera",
+	"Scene Write": true,
+	"Components": {
+	  "Transform": {
+	  },
+	  "Camera": {
+	  }
+	}
+  }
+}

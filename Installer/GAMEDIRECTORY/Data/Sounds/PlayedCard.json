@@ -1,0 +1,8 @@
+{
+  "Sound": {
+    "Name": "PlayedCard",
+    "FileName": "PlayedCard.ogg",
+    "Type": "SoundEffect",
+    "IsLooping":  false
+  }
+}

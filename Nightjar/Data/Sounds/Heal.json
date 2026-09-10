@@ -1,0 +1,8 @@
+{
+  "Sound": {
+    "Name": "Heal",
+    "FileName": "Heal.ogg",
+    "Type": "SoundEffect",
+    "IsLooping": false
+  }
+}

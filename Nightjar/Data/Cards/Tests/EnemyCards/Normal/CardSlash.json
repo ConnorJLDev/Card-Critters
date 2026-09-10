@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardSlash",
+			"Card Type": "ATTACK",
+			"Damage": 0,
+			"Heal Amount": 0,
+			"Move": 0,
+			"Defense": 0,
+			"Cost": 2,
+			"Accuracy": 70,
+			"Critical Hit Chance": 30,
+			"Sound":  "Impact"
+    }
+}

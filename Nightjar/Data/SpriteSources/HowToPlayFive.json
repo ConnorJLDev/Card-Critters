@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "HowToPlayFive",
+	"Texture": "HowToPlayFive.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

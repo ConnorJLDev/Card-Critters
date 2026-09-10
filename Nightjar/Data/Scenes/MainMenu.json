@@ -1,0 +1,237 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                    },
+                    "Camera": {
+                    }
+                }
+            },
+            {
+                "Name": "MainMenu",
+                "Archetype": "MainMenu",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            1920.0,
+                            1080.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "TitleScreen",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 1,
+                        "Text": ""
+                    }
+                }
+            },
+            {
+                "Name": "Logo",
+                "Archetype": "Logo",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            610.0,
+                            380.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            972.0,
+                            729.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "Logo",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 1,
+                        "Text": ""
+                    }
+                }
+            },
+            {
+                "Name": "Audio",
+                "Archetype": "Audio",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            1.0,
+                            1.0
+                        ]
+                    },
+                    "AudioEmitter": {
+                        "Sound": "TempMainMenuMusic"
+                    },
+                    "BehaviorAudio": {}
+                }
+            },
+            {
+                "Name": "Button",
+                "Archetype": "Button",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ -740.0, 40.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 2,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "START GAME"
+                        ],
+                        "OnMessagesEnd": "TransitionScene:OpeningText"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+
+                }
+            },
+            {
+                "Name": "Button2",
+                "Archetype": "Button2",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ -740.0, -280.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 2,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "CREDITS"
+                        ],
+                        "OnMessagesEnd": "TransitionScene:Credits"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+                }
+            },
+            {
+                "Name": "Button3",
+                "Archetype": "Button3",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ -740.0, -440.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 2,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "QUIT GAME"
+                        ],
+                        "OnMessagesEnd": "ChangeScene@3:QuitConfirmationMenu"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+                }
+            },
+            {
+                "Name": "Button4",
+                "Archetype": "Button4",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ -740.0, -120.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 2,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "SETTINGS"
+                        ],
+                        "OnMessagesEnd": "TransitionScene:Settings"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+                }
+            },
+            {
+                "Name": "Mouse",
+                "Archetype": "Mouse",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ -855.0, 90.44599151611328 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 40.0, 40.0 ]
+                    },
+                    "ColliderCircle": { "Radius": 20.0 },
+                    "Sprite": {
+                        "SpriteSource": "Ball",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 9,
+                        "Text": ""
+                    },
+                    "BehaviorMouse": {}
+                }
+            }
+        ]
+    }
+}

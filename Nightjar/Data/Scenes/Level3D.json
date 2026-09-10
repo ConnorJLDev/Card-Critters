@@ -1,0 +1,606 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "3D": true,
+                        "Translation": [
+                            0.0,
+                            1.0,
+                            20.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "Camera": {
+                        "RespectWindowSize": false,
+                        "OrthoSize": [
+                            1920.0,
+                            1080.0
+                        ],
+                        "PerspectiveFOV": 45.0,
+                        "Mode": "Perspective"
+                    }
+                }
+            },
+            {
+                "Name": "LightAmbient",
+                "Archetype": "",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "3D": true,
+                        "Translation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "Light": {
+                        "Ambient": true,
+                        "Index": 0,
+                        "Color": [
+                            0.30000001192092896,
+                            0.30000001192092896,
+                            0.30000001192092896,
+                            0.30000001192092896
+                        ],
+                        "AttenuationDistance": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AttenuationAngle": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            },
+            {
+                "Name": "LightRed",
+                "Archetype": "",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "3D": true,
+                        "Translation": [
+                            0.0,
+                            100.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            -1.570796251296997,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "Light": {
+                        "Ambient": false,
+                        "Index": 0,
+                        "Color": [
+                            0.8999999761581421,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AttenuationDistance": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AttenuationAngle": [
+                            -999.0,
+                            1000.0,
+                            0.0
+                        ]
+                    }
+                }
+            },
+            {
+                "Name": "LightGreen",
+                "Archetype": "",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "3D": true,
+                        "Translation": [
+                            100.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            1.570796251296997,
+                            0.0
+                        ],
+                        "Scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "Light": {
+                        "Ambient": false,
+                        "Index": 1,
+                        "Color": [
+                            0.0,
+                            0.8999999761581421,
+                            0.0,
+                            0.0
+                        ],
+                        "AttenuationDistance": [
+                            10.0,
+                            -0.10000000149011612,
+                            0.0
+                        ],
+                        "AttenuationAngle": [
+                            0.0,
+                            10.0,
+                            0.0
+                        ]
+                    }
+                }
+            },
+            {
+                "Name": "LightBlue",
+                "Archetype": "",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "3D": true,
+                        "Translation": [
+                            -100.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            -1.570796251296997,
+                            0.0
+                        ],
+                        "Scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "Light": {
+                        "Ambient": false,
+                        "Index": 2,
+                        "Color": [
+                            0.0,
+                            0.0,
+                            0.8999999761581421,
+                            0.0
+                        ],
+                        "AttenuationDistance": [
+                            -10.0,
+                            0.10000000149011612,
+                            0.0
+                        ],
+                        "AttenuationAngle": [
+                            0.0,
+                            10.0,
+                            0.0
+                        ]
+                    }
+                }
+            },
+            {
+                "Name": "LightWhite",
+                "Archetype": "",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "3D": true,
+                        "Translation": [
+                            0.0,
+                            -100.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            1.570796251296997,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "Light": {
+                        "Ambient": false,
+                        "Index": 3,
+                        "Color": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.8999999761581421
+                        ],
+                        "AttenuationDistance": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        "AttenuationAngle": [
+                            -2400.0,
+                            4900.0,
+                            -2500.0
+                        ]
+                    }
+                }
+            },
+            {
+                "Name": "3D",
+                "Archetype": "Suzanne",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "3D": true,
+                        "Translation": [
+                            0.0,
+                            0.5,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "Model": {},
+                    "Animation": {
+                        "Sequence": "Demo3D"
+                    }
+                }
+            },
+            {
+                "Name": "Particles",
+                "Archetype": "",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "3D": true,
+                        "Translation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "ParticleEmitter": {
+                        "Mesh": "Cube",
+                        "Material": "Cube",
+                        "BatchMaterialRender": "",
+                        "MaxParticleCount": 1000,
+                        "BatchMaterial": "",
+                        "Animation": "",
+                        "Speed": 1.0,
+                        "IsWorldSpace": false,
+                        "EmitIntervalActive": true,
+                        "EmitInterval": 0.009999999776482582,
+                        "StartingLifetime": 3.0,
+                        "StartingTranslation": [
+                            -20.0,
+                            0.0,
+                            -50.0
+                        ],
+                        "StartingRotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "StartingScale": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "StartingVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "StartingAcceleration": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "StartingRotationalVelocity": [
+                            1.0,
+                            2.0,
+                            3.0
+                        ],
+                        "StartingDrag": -0.8600000143051147,
+                        "StartingRotationalDrag": 0.0,
+                        "RandomLifetime": 0.0,
+                        "RandomTranslation": [
+                            2.0,
+                            2.0,
+                            2.0
+                        ],
+                        "RandomRotation": [
+                            3.0999999046325684,
+                            3.0999999046325684,
+                            3.0999999046325684
+                        ],
+                        "RandomScale": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "RandomVelocity": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "RandomAcceleration": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "RandomRotationalVelocity": [
+                            3.0,
+                            2.0,
+                            1.0
+                        ],
+                        "RandomDrag": 0.0,
+                        "RandomRotationalDrag": 0.0
+                    }
+                }
+            },
+            {
+                "Name": "Particles",
+                "Archetype": "",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Translation": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "ParticleEmitter": {
+                        "Mesh": "Cube",
+                        "Material": "Cube",
+                        "BatchMaterialRender": "",
+                        "MaxParticleCount": 1000,
+                        "BatchMaterial": "",
+                        "Animation": "DemoParticle",
+                        "Speed": 1.0,
+                        "IsWorldSpace": false,
+                        "EmitIntervalActive": true,
+                        "EmitInterval": 0.009999999776482582,
+                        "StartingLifetime": 3.0,
+                        "StartingTranslation": [
+                            0.0,
+                            -7.0,
+                            -1.8200000524520874
+                        ],
+                        "StartingRotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "StartingScale": [
+                            0.15000000596046448,
+                            0.17000000178813934,
+                            1.0
+                        ],
+                        "StartingVelocity": [
+                            0.0,
+                            5.0,
+                            0.0
+                        ],
+                        "StartingAcceleration": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "StartingRotationalVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "StartingDrag": 0.30000001192092896,
+                        "StartingRotationalDrag": -0.75,
+                        "RandomLifetime": 0.0,
+                        "RandomTranslation": [
+                            2.0,
+                            0.0,
+                            2.0
+                        ],
+                        "RandomRotation": [
+                            3.0999999046325684,
+                            3.0999999046325684,
+                            3.0999999046325684
+                        ],
+                        "RandomScale": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "RandomVelocity": [
+                            0.0,
+                            1.5,
+                            0.0
+                        ],
+                        "RandomAcceleration": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "RandomRotationalVelocity": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "RandomDrag": 0.0,
+                        "RandomRotationalDrag": 0.0
+                    }
+                }
+            },
+            {
+                "Name": "ParticlesBatch",
+                "Archetype": "",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "3D": true,
+                        "Translation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "Parent": ""
+                    },
+                    "ParticleEmitter": {
+                        "Mesh": "Cube",
+                        "Material": "",
+                        "BatchMaterialRender": "ParticlesRender",
+                        "MaxParticleCount": 1010000,
+                        "BatchMaterial": "ParticlesUpdate",
+                        "Animation": "",
+                        "Speed": 1.0,
+                        "IsWorldSpace": false,
+                        "EmitIntervalActive": true,
+                        "EmitInterval": 0.009999999776482582,
+                        "StartingLifetime": 3.0,
+                        "StartingTranslation": [
+                            0.0,
+                            0.0,
+                            -20.0
+                        ],
+                        "StartingRotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "StartingScale": [
+                            0.10000000149011612,
+                            0.10000000149011612,
+                            0.10000000149011612
+                        ],
+                        "StartingVelocity": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "StartingAcceleration": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "StartingRotationalVelocity": [
+                            1.0,
+                            2.0,
+                            3.0
+                        ],
+                        "StartingDrag": -0.8600000143051147,
+                        "StartingRotationalDrag": 0.0,
+                        "RandomLifetime": 0.0,
+                        "RandomTranslation": [
+                            2.0,
+                            2.0,
+                            2.0
+                        ],
+                        "RandomRotation": [
+                            3.0999999046325684,
+                            3.0999999046325684,
+                            3.0999999046325684
+                        ],
+                        "RandomScale": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "RandomVelocity": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "RandomAcceleration": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "RandomRotationalVelocity": [
+                            3.0,
+                            2.0,
+                            1.0
+                        ],
+                        "RandomDrag": 0.0,
+                        "RandomRotationalDrag": 0.0
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "StatusDisarm",
+    "Texture": "DisarmIcon.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

@@ -1,0 +1,16 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Component</DefaultName>
+    <Name>TemplateComponent</Name>
+    <Description>Template class for creating new, derived components.</Description>
+    <ProjectType>VC</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cpp" ReplaceParameters="true">TemplateComponent.cpp</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="ImGui$fileinputname$.cpp" ReplaceParameters="true">TemplateEditor.cpp</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.h" ReplaceParameters="true">TemplateComponent.h</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

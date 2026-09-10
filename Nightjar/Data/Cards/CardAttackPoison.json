@@ -1,0 +1,17 @@
+{
+  "Card": {
+    "Name": "CardAttackPoison",
+    "Card Type": "ATTACK",
+    "Damage": 11,
+    "Heal Amount": 0,
+    "Move": 0,
+    "Defense": 0,
+    "Cost": 2,
+	  "Accuracy": 85,
+    "Critical Hit Chance": 30,
+    "Status Effect": "POISON",
+    "Status Duration": 3,
+    "Status Damage":  10,
+    "Sound": "Impact"
+  }
+}

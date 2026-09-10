@@ -1,0 +1,19 @@
+{
+	"Entity": {
+		"Name": "StatusTooltip",
+		"Components": {
+			"Transform": {
+				"Position": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Scale": [ 1.5, 1.0 ]
+			},
+			"Sprite": {
+				"SpriteSource": "TooltipBG",
+				"FrameIndex": 0,
+				"Alpha": 0.7,
+				"ZLayer": 5,
+				"Text": ""
+			}
+		}
+	}
+}

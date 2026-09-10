@@ -1,0 +1,31 @@
+{
+  "Mesh": {
+    "Name": "Sprite",
+		"VertCount": 4,
+		"DrawType": "TriangleStrip",
+		"Attributes": [
+			{
+				"Name": "Position",
+				"Type": "Single",
+				"Count": 2,
+				"Data": [
+					 0.5, 0.5,
+					 0.5,-0.5,
+					-0.5, 0.5,
+					-0.5,-0.5
+				]
+			},
+			{
+				"Name": "TexCoord0",
+				"Type": "Single",
+				"Count": 2,
+				"Data": [
+					1,0,
+					1,1,
+					0,0,
+					0,1
+				]
+			}
+		]
+  }
+}

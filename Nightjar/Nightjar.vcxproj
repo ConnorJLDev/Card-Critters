@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{bb7beb4b-0403-45c4-ad05-afa9ed14b1d4}</ProjectGuid>
+    <RootNamespace>Nightjar</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CardCritters</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Nightjar.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Nightjar.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Nightjar.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Nightjar.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryOutDir);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Build\$(Platform)\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(LibraryDir)glad\inc;$(LibraryDir)glfw\inc;$(LibraryDir)fmod\inc;$(LibraryDir)rapidjson\inc;$(LibraryDir)stb_image\inc;$(LibraryDir)glm\inc;$(LibraryDir)dear_imgui\inc;$(LibraryDir)freetype\inc;$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryOutDir);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>Build\$(Platform)\$(Configuration)\</IntDir>
+    <ExternalIncludePath>$(LibraryDir)glad\inc;$(LibraryDir)glfw\inc;$(LibraryDir)fmod\inc;$(LibraryDir)rapidjson\inc;$(LibraryDir)stb_image\inc;$(LibraryDir)glm\inc;$(LibraryDir)dear_imgui\inc;$(LibraryDir)freetype\inc;$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryOutDir);$(LibraryPath)</LibraryPath>
+    <IntDir>Build\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <ExternalIncludePath>$(LibraryDir)glad\inc;$(LibraryDir)glfw\inc;$(LibraryDir)fmod\inc;$(LibraryDir)rapidjson\inc;$(LibraryDir)stb_image\inc;$(LibraryDir)glm\inc;$(LibraryDir)dear_imgui\inc;$(LibraryDir)freetype\inc;$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryOutDir);$(LibraryPath)</LibraryPath>
+    <IntDir>Build\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)Build\$(Platform)\$(Configuration)\</OutDir>
+    <ExternalIncludePath>$(LibraryDir)glad\inc;$(LibraryDir)glfw\inc;$(LibraryDir)fmod\inc;$(LibraryDir)rapidjson\inc;$(LibraryDir)stb_image\inc;$(LibraryDir)glm\inc;$(LibraryDir)dear_imgui\inc;$(LibraryDir)freetype\inc;$(VC_IncludePath);$(WindowsSDK_IncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_EDITOR;_CONSOLE;_SOLUTION_DIR="$(SolutionDir.Replace('\', '\\'))\";_PROJECT_DIR="$(ProjectDir.Replace('\', '\\'))\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <DisableSpecificWarnings>4710;4711;4727;4820;5045;5246;4061;4201;5103;28251;</DisableSpecificWarnings>
+      <AdditionalOptions>/Zc:__cplusplus /Zc:preprocessor %(AdditionalOptions)</AdditionalOptions>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;glfw.lib;opengl32.lib;glad.lib;freetype.lib;dearimgui.lib;%(AdditionalDependencies);</AdditionalDependencies>
+      <Profile>false</Profile>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(LibraryDir)fmod\lib\$(Platform)\fmod.dll" "$(OutDir)" /s /r /y /q</Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>xcopy "$(LibraryDir)fmod\lib\$(Platform)\fmod_vc.lib" "$(LibraryOutDir)" /s /r /y /q</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_SOLUTION_DIR="";_PROJECT_DIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <DisableSpecificWarnings>4710;4711;4727;4820;5045;5246;4061;4201;5103;28251;</DisableSpecificWarnings>
+      <AdditionalOptions>/Zc:__cplusplus /Zc:preprocessor %(AdditionalOptions)</AdditionalOptions>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;glfw.lib;opengl32.lib;glad.lib;freetype.lib;dearimgui.lib;%(AdditionalDependencies);</AdditionalDependencies>
+      <Profile>false</Profile>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(LibraryDir)fmod\lib\$(Platform)\fmod.dll" "$(OutDir)" /s /r /y /q</Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>xcopy "$(LibraryDir)fmod\lib\$(Platform)\fmod_vc.lib" "$(LibraryOutDir)" /s /r /y /q</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_DEBUG_TRACE;_EDITOR;_CONSOLE;_SOLUTION_DIR="$(SolutionDir.Replace('\', '\\'))\";_PROJECT_DIR="$(ProjectDir.Replace('\', '\\'))\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <DisableSpecificWarnings>4710;4711;4727;4820;5045;5246;4061;4201;5103;28251;</DisableSpecificWarnings>
+      <AdditionalOptions>/Zc:__cplusplus /Zc:preprocessor %(AdditionalOptions)</AdditionalOptions>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;glfw.lib;opengl32.lib;glad.lib;freetype.lib;dearimgui.lib;%(AdditionalDependencies);</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRT %(AdditionalOptions)</AdditionalOptions>
+      <Profile>false</Profile>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(LibraryDir)fmod\lib\$(Platform)\fmod.dll" "$(OutDir)" /s /r /y /q</Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>xcopy "$(LibraryDir)fmod\lib\$(Platform)\fmod_vc.lib" "$(LibraryOutDir)" /s /r /y /q</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_EDITOR;_SOLUTION_DIR="";_PROJECT_DIR="";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <DisableSpecificWarnings>4710;4711;4727;4820;5045;5246;4061;4201;5103;28251;</DisableSpecificWarnings>
+      <AdditionalOptions>/Zc:__cplusplus /Zc:preprocessor %(AdditionalOptions)</AdditionalOptions>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;glfw.lib;opengl32.lib;glad.lib;freetype.lib;dearimgui.lib;%(AdditionalDependencies); ucrt.lib; vcruntime.lib; msvcprt.lib; legacy_stdio_definitions.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <Profile>false</Profile>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(LibraryDir)fmod\lib\$(Platform)\fmod.dll" "$(OutDir)" /s /r /y /q</Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>xcopy "$(LibraryDir)fmod\lib\$(Platform)\fmod_vc.lib" "$(LibraryOutDir)" /s /r /y /q</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\AnimationLoop.cpp" />
+    <ClCompile Include="Source\BehaviorCharacterSelector.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\BehaviorFloatingText.cpp" />
+    <ClCompile Include="Source\BehaviorInteractable.cpp" />
+    <ClCompile Include="Source\BehaviorMessageBox.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\BehaviorParty.cpp" />
+    <ClCompile Include="Source\BehaviorSlider.cpp" />
+    <ClCompile Include="Source\BehaviorSceneTransitionTimer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\BehaviorTransition.cpp" />
+    <ClCompile Include="Source\EngineLoop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicsStopwatch.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicsStopwatchCore.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicsStopwatchSequence.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiAlignedBar.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiCommon.cpp" />
+    <ClCompile Include="Source\ImGuiContextData.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiMenuBar.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiLayoutManager.cpp" />
+    <ClCompile Include="Source\ImGuiStatusBar.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiToolbar.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiWindowAssets.cpp" />
+    <ClCompile Include="Source\ImGuiWindowBase.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiWindowConsole.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ImGuiWindowEntities.cpp" />
+    <ClCompile Include="Source\ImGuiWindowFileBrowser.cpp" />
+    <ClCompile Include="Source\ImGuiWindowManager.cpp" />
+    <ClCompile Include="Source\ImGuiWindowPerformance.cpp" />
+    <ClCompile Include="Source\ImGuiWindowProperties.cpp" />
+    <ClCompile Include="Source\ImGuiWindowAudio.cpp" />
+    <ClCompile Include="Source\ImGuiWindowTestMemory.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryBlock.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryException.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryPage.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryPageAllocator.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\PerformanceEnums.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\PerformanceSystem.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\PerformanceTracker.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\PersistenceEntry.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\PersistenceGroup.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\PersistenceSystem.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\StaticObjectsBase.cpp" />
+    <ClCompile Include="Source\StaticObjectsRegex.cpp" />
+    <ClCompile Include="Source\StaticObjectsString.cpp" />
+    <ClCompile Include="Source\StringToType.cpp" />
+    <ClCompile Include="Source\Systems.cpp" />
+    <ClCompile Include="Source\UtilityString.cpp" />
+    <ClCompile Include="Source\Variant.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClInclude Include="Source\Colliders.h" />
+    <ClInclude Include="Source\ConstexprAssert.h" />
+    <ClInclude Include="Source\ContainerDearray.h" />
+    <ClInclude Include="Source\CycleCounter.h" />
+    <ClInclude Include="Source\DataSetStatistics.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\EngineLoop.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\FixedPoint.h" />
+    <ClInclude Include="Source\FixedString.h" />
+    <ClInclude Include="Source\GraphicsStopwatch.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsStopwatchCore.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsStopwatchSequence.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiAlignedBar.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiCommon.h" />
+    <ClInclude Include="Source\ImGuiContextData.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiMenuBar.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiLayoutManager.h" />
+    <ClInclude Include="Source\ImGuiStatusBar.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiToolbar.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiWindowAssets.h" />
+    <ClInclude Include="Source\ImGuiWindowBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiWindowConsole.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ImGuiWindowEntities.h" />
+    <ClInclude Include="Source\ImGuiWindowFileBrowser.h" />
+    <ClInclude Include="Source\ImGuiWindowManager.h" />
+    <ClInclude Include="Source\ImGuiWindowPerformance.h" />
+    <ClInclude Include="Source\ImGuiWindowProperties.h" />
+    <ClInclude Include="Source\ImGuiWindows.h" />
+    <ClInclude Include="Source\ImGuiWindowAudio.h" />
+    <ClInclude Include="Source\ImGuiWindowTestMemory.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\MathTypeChecks.h" />
+    <ClInclude Include="Source\MemoryAllocator.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryAllocatorInfo.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryBlock.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryException.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryPage.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\MemoryPageAllocator.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\PerformanceEnums.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\PerformanceSystem.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\PerformanceTracker.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\PersistenceEntry.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\PersistenceGroup.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\PersistenceSystem.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\SafeDelete.h" />
+    <ClInclude Include="Source\StaticObjectsBase.h" />
+    <ClInclude Include="Source\StaticObjectsMap.h" />
+    <ClInclude Include="Source\StaticObjectsRegex.h" />
+    <ClInclude Include="Source\StaticObjectsString.h" />
+    <ClInclude Include="Source\StaticObjectsUnorderedMap.h" />
+    <ClInclude Include="Source\StaticObjectsVector.h" />
+    <ClInclude Include="Source\MacroManipulation.h" />
+    <ClInclude Include="Source\StringToType.h" />
+    <ClInclude Include="Source\TraceSource.h" />
+    <ClInclude Include="Source\UtilityString.h" />
+    <ClInclude Include="Source\UtilityStringView.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\UtilityTypeChecks.h" />
+    <ClInclude Include="Source\STLTypes.h" />
+    <ClInclude Include="Source\Variant.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <None Include="Source\CallbackWrapper.inl">
+      <SubType>
+      </SubType>
+      <FileType>Document</FileType>
+    </None>
+    <ClCompile Include="Source\ComponentRegistry.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClInclude Include="Source\BehaviorSlider.h" />
+    <ClInclude Include="Source\BehaviorSceneTransitionTimer.h" />
+    <ClInclude Include="Source\CallbackWrapper.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ConstexprString.inl">
+      <SubType>
+      </SubType>
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClCompile Include="Source\DataCharacter.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\DataTypes.cpp" />
+    <ClCompile Include="Source\GraphicsBuffer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\BufferDescriptor.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderBufferDescriptor.cpp" />
+    <ClCompile Include="Source\ImGuiAnimationCurve.cpp" />
+    <ClCompile Include="Source\ImGuiAnimationKeyFrame.cpp" />
+    <ClCompile Include="Source\ImGuiAnimationLink.cpp" />
+    <ClCompile Include="Source\ImGuiAnimationSequence.cpp" />
+    <ClCompile Include="Source\ImGuiArmature.cpp" />
+    <ClCompile Include="Source\ImGuiArmatureBone.cpp" />
+    <ClCompile Include="Source\ImGuiAudioEmitter.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorCharacterSelector.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorFloatingText.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorInteractable.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorMessageBox.cpp" />
+    <ClCompile Include="Source\ImGuiCameraSource.cpp" />
+    <ClCompile Include="Source\ImGuiEntity.cpp" />
+    <ClCompile Include="Source\ImGuiFont.cpp" />
+    <ClCompile Include="Source\ImGuiLightSource.cpp" />
+    <ClCompile Include="Source\ImGuiMaterial.cpp" />
+    <ClCompile Include="Source\ImGuiMesh.cpp" />
+    <ClCompile Include="Source\ImGuiModelData.cpp" />
+    <ClCompile Include="Source\ImGuiNamedObject.cpp" />
+    <ClCompile Include="Source\ImGuiObject.cpp" />
+    <ClCompile Include="Source\ImGuiSampler.cpp" />
+    <ClCompile Include="Source\ImGuiSpriteSource.cpp" />
+    <ClCompile Include="Source\ImGuiSpriteText.cpp" />
+    <ClCompile Include="Source\ImGuiTexture.cpp" />
+    <ClCompile Include="Source\ImGuiTrail.cpp" />
+    <ClCompile Include="Source\ImGuiTrailSource.cpp" />
+    <ClCompile Include="Source\IOSystem.cpp" />
+    <ClCompile Include="Source\MaterialRenderSettings.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryManager.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ModelData.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\Particle.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleBatch.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\DataParty.cpp" />
+    <ClCompile Include="Source\ParticleBatchMesh.cpp" />
+    <ClCompile Include="Source\PhysicsBase.cpp" />
+    <ClCompile Include="Source\PlatformDisplay.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\PlatformWindow.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\MeshPrimitiveWrapper.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\RecruitSystem.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\RenderBuffer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\RendererSettings.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\RenderTarget.cpp" />
+    <ClCompile Include="Source\SaveSystem.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderGlobalBuffers.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderParser.cpp" />
+    <ClCompile Include="Source\SpriteText.cpp" />
+    <ClCompile Include="Source\stdafx.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="Source\ConstexprString.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorTransition.h" />
+    <ClInclude Include="Source\DataCharacter.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\DataTypes.h" />
+    <ClInclude Include="Source\GraphicsBuffer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\BufferDescriptor.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ShaderBufferDescriptor.h" />
+    <ClInclude Include="Source\ImGuiInclude.h" />
+    <ClInclude Include="Source\LibraryStatic.h" />
+    <ClInclude Include="Source\MaterialRenderSettings.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\MathFuncs.h" />
+    <ClInclude Include="Source\MemoryManager.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ModelData.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleBatch.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleBatchMesh.h" />
+    <ClInclude Include="Source\PhysicsBase.h" />
+    <ClInclude Include="Source\PlatformDisplay.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\PlatformWindow.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\MeshPrimitiveWrapper.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\RenderBuffer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\RendererSettings.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\SaveSystem.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\ShaderGlobalBuffers.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteText.h" />
+    <ClInclude Include="Source\StaticObjects.h" />
+    <ClInclude Include="Source\Stopwatch.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\StreamCommon.h" />
+    <ClInclude Include="Source\StreamInValidator.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\TextInclude.h" />
+    <ClInclude Include="Source\TextMesh.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\Trail.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\TrailSource.h" />
+    <ClInclude Include="Source\TransformBase.inl">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClCompile Include="Source\Stopwatch.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\StreamCommon.cpp" />
+    <ClCompile Include="Source\StreamInValidator.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\TextMesh.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\Trail.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\TrailSource.cpp" />
+    <ClCompile Include="Source\TransformBaseComponents.cpp" />
+    <ClCompile Include="Source\TransformBaseInheritance.cpp" />
+    <None Include="Source\Colliders.def" />
+    <None Include="Source\ContainerDearray.inl" />
+    <None Include="Source\CycleCounter.inl" />
+    <None Include="Source\DataSetStatistics.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Source\FixedPoint.inl" />
+    <None Include="Source\FixedString.inl" />
+    <None Include="Source\GraphicsStopwatch.inl" />
+    <None Include="Source\GraphicsStopwatchCore.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Source\GraphicsStopwatchSequence.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Source\ImGuiCommon.inl" />
+    <None Include="Source\ImGuiWindowBase.inl" />
+    <None Include="Source\ImGuiWindows.def" />
+    <None Include="Source\MathFuncs.inl" />
+    <None Include="Source\MemoryAllocator.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Source\MemoryAllocatorInfo.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Source\MemoryDoc.md" />
+    <None Include="Source\PersistenceEntry.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Source\PersistenceGroup.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Source\StaticObjectsBase.inl" />
+    <None Include="Source\StaticObjectsMap.inl" />
+    <None Include="Source\StaticObjectsUnorderedMap.inl" />
+    <None Include="Source\StaticObjectsVector.inl" />
+    <None Include="Source\StringToType.inl" />
+    <None Include="Source\Systems.inl" />
+    <None Include="Source\TraceSource.inl" />
+    <None Include="Source\UtilityString.inl" />
+    <None Include="Source\UtilityStringView.inl">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Source\Variant.inl">
+      <SubType>
+      </SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Animation.cpp" />
+    <ClCompile Include="Source\AnimationCurve.cpp" />
+    <ClCompile Include="Source\AnimationKeyFrame.cpp" />
+    <ClCompile Include="Source\AnimationKeyFrameCubic.cpp" />
+    <ClCompile Include="Source\AnimationKeyFrameLinear.cpp" />
+    <ClCompile Include="Source\AnimationKeyFrameStepped.cpp" />
+    <ClCompile Include="Source\AnimationLink.cpp" />
+    <ClCompile Include="Source\AnimationLinkMaterial.cpp" />
+    <ClCompile Include="Source\AnimationLinkModel.cpp" />
+    <ClCompile Include="Source\AnimationLinkSprite.cpp" />
+    <ClCompile Include="Source\AnimationLinkTransform.cpp" />
+    <ClCompile Include="Source\AnimationSequence.cpp" />
+    <ClCompile Include="Source\AudioEmitter.cpp" />
+    <ClCompile Include="Source\BehaviorAudio.cpp" />
+    <ClCompile Include="Source\BehaviorCharacter.cpp" />
+    <ClCompile Include="Source\ParticleEmitter.cpp" />
+    <ClCompile Include="Source\StreamOut.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Source\TurnSystem.cpp" />
+    <ClCompile Include="Source\Armature.cpp" />
+    <ClCompile Include="Source\ArmatureBone.cpp" />
+    <ClCompile Include="Source\AudioSystem.cpp" />
+    <ClCompile Include="Source\BaseSystem.cpp" />
+    <ClCompile Include="Source\Behavior.cpp" />
+    <ClCompile Include="Source\BehaviorCard.cpp" />
+    <ClCompile Include="Source\BehaviorHand.cpp" />
+    <ClCompile Include="Source\BehaviorHealth.cpp" />
+    <ClCompile Include="Source\BehaviorMouse.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\CameraSource.cpp" />
+    <ClCompile Include="Source\DataCard.cpp" />
+    <ClCompile Include="Source\CheatSystem.cpp" />
+    <ClCompile Include="Source\Collider.cpp" />
+    <ClCompile Include="Source\ColliderCircle.cpp" />
+    <ClCompile Include="Source\ColliderLine.cpp" />
+    <ClCompile Include="Source\ColliderRect.cpp" />
+    <ClCompile Include="Source\CollisionRecord.cpp" />
+    <ClCompile Include="Source\Component.cpp" />
+    <ClInclude Include="Source\AudioEmitter.h" />
+    <ClInclude Include="Source\BehaviorAudio.h" />
+    <ClInclude Include="Source\BehaviorCharacter.h" />
+    <ClInclude Include="Source\BehaviorCharacterSelector.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorFloatingText.h" />
+    <ClInclude Include="Source\BehaviorInteractable.h" />
+    <ClInclude Include="Source\BehaviorMessageBox.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorParty.h" />
+    <ClInclude Include="Source\Behaviors.h" />
+    <ClInclude Include="Source\CameraSource.h" />
+    <ClInclude Include="Source\ComponentRegistry.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\Container.inl" />
+    <ClCompile Include="Source\Engine.cpp" />
+    <ClCompile Include="Source\Entity.cpp" />
+    <ClCompile Include="Source\EntityContainer.cpp" />
+    <ClInclude Include="Source\Entity.inl" />
+    <ClInclude Include="Source\Factory.inl" />
+    <ClCompile Include="Source\Font.cpp" />
+    <ClCompile Include="Source\GraphicsSystem.cpp" />
+    <ClCompile Include="Source\ImGuiSystem.cpp" />
+    <ClCompile Include="Source\ImGuiAnimation.cpp" />
+    <ClCompile Include="Source\ImGuiBehavior.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorCard.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorCharacter.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorHand.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorHealth.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorMouse.cpp" />
+    <ClCompile Include="Source\ImGuiBehaviorParty.cpp" />
+    <ClCompile Include="Source\ImGuiCamera.cpp" />
+    <ClCompile Include="Source\ImGuiDataCard.cpp" />
+    <ClCompile Include="Source\ImGuiCollider.cpp" />
+    <ClCompile Include="Source\ImGuiColliderCircle.cpp" />
+    <ClCompile Include="Source\ImGuiColliderLine.cpp" />
+    <ClCompile Include="Source\ImGuiColliderRect.cpp" />
+    <ClCompile Include="Source\ImGuiLight.cpp" />
+    <ClCompile Include="Source\ImGuiModel.cpp" />
+    <ClCompile Include="Source\ImGuiParticleEmitter.cpp" />
+    <ClCompile Include="Source\ImGuiPhysics.cpp" />
+    <ClCompile Include="Source\ImGuiSprite.cpp" />
+    <ClCompile Include="Source\ImGuiTransform.cpp" />
+    <ClCompile Include="Source\InputSystem.cpp" />
+    <ClInclude Include="Source\Font.h" />
+    <ClInclude Include="Source\IOSystem.h" />
+    <ClInclude Include="Source\Library.inl" />
+    <ClCompile Include="Source\Light.cpp" />
+    <ClCompile Include="Source\LightSource.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Material.cpp" />
+    <ClInclude Include="Source\Light.h" />
+    <ClInclude Include="Source\LightSource.h" />
+    <ClInclude Include="Source\Material.inl" />
+    <ClCompile Include="Source\Mesh.cpp" />
+    <ClCompile Include="Source\MeshAttribute.cpp" />
+    <ClCompile Include="Source\MeshPrimitive.cpp" />
+    <ClInclude Include="Source\Mesh.inl" />
+    <ClCompile Include="Source\MessageSystem.cpp" />
+    <ClCompile Include="Source\Model.cpp" />
+    <ClCompile Include="Source\NamedObject.cpp" />
+    <ClCompile Include="Source\Object.cpp" />
+    <ClCompile Include="Source\Physics.cpp" />
+    <ClCompile Include="Source\PlatformSystem.cpp" />
+    <ClCompile Include="Source\Random.cpp" />
+    <ClCompile Include="Source\FrameBuffer.cpp" />
+    <ClCompile Include="Source\Sampler.cpp" />
+    <ClCompile Include="Source\Scene.cpp" />
+    <ClCompile Include="Source\SceneSystem.cpp" />
+    <ClCompile Include="Source\Shader.cpp" />
+    <ClInclude Include="Source\MessageSystem.h" />
+    <ClInclude Include="Source\ParticleEmitter.h" />
+    <ClInclude Include="Source\DataParty.h" />
+    <ClInclude Include="Source\RecruitSystem.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClCompile Include="Source\ShaderMaterialBuffer.cpp" />
+    <ClCompile Include="Source\ShaderInfo.cpp" />
+    <ClCompile Include="Source\Sound.cpp" />
+    <ClCompile Include="Source\Sprite.cpp" />
+    <ClCompile Include="Source\SpriteSource.cpp" />
+    <ClCompile Include="Source\StreamIn.cpp" />
+    <ClInclude Include="Source\StreamIn.inl" />
+    <ClCompile Include="Source\TextSystem.cpp" />
+    <ClCompile Include="Source\Texture.cpp" />
+    <ClCompile Include="Source\Trace.cpp" />
+    <ClInclude Include="Source\StreamOut.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Source\Systems.h" />
+    <ClInclude Include="Source\Trace.inl" />
+    <ClCompile Include="Source\Transform.cpp" />
+    <ClInclude Include="Source\TransformBase.h" />
+    <ClInclude Include="Source\TurnSystem.h" />
+    <ClInclude Include="Source\Animation.h" />
+    <ClInclude Include="Source\AnimationCurve.h" />
+    <ClInclude Include="Source\AnimationKeyFrame.h" />
+    <ClInclude Include="Source\AnimationKeyFrameCubic.h" />
+    <ClInclude Include="Source\AnimationKeyFrameLinear.h" />
+    <ClInclude Include="Source\AnimationKeyFrameStepped.h" />
+    <ClInclude Include="Source\AnimationLink.h" />
+    <ClInclude Include="Source\AnimationLinkMaterial.h" />
+    <ClInclude Include="Source\AnimationLinkModel.h" />
+    <ClInclude Include="Source\AnimationLinkSprite.h" />
+    <ClInclude Include="Source\AnimationLinkTransform.h" />
+    <ClInclude Include="Source\AnimationLoop.h" />
+    <ClInclude Include="Source\AnimationSequence.h" />
+    <ClInclude Include="Source\Armature.h" />
+    <ClInclude Include="Source\ArmatureBone.h" />
+    <ClInclude Include="Source\AudioSystem.h" />
+    <ClInclude Include="Source\BaseSystem.h" />
+    <ClInclude Include="Source\Behavior.h" />
+    <ClInclude Include="Source\BehaviorCard.h" />
+    <ClInclude Include="Source\BehaviorHand.h" />
+    <ClInclude Include="Source\BehaviorHealth.h" />
+    <ClInclude Include="Source\BehaviorMouse.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\DataCard.h" />
+    <ClInclude Include="Source\CheatSystem.h" />
+    <ClInclude Include="Source\Collider.h" />
+    <ClInclude Include="Source\ColliderCircle.h" />
+    <ClInclude Include="Source\ColliderLine.h" />
+    <ClInclude Include="Source\ColliderRect.h" />
+    <ClInclude Include="Source\CollisionRecord.h" />
+    <ClInclude Include="Source\Container.h" />
+    <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\Entity.h" />
+    <ClInclude Include="Source\EntityContainer.h" />
+    <ClInclude Include="Source\Component.h" />
+    <ClInclude Include="Source\EnumDefs.h" />
+    <ClInclude Include="Source\Factory.h" />
+    <ClInclude Include="Source\GraphicsSystem.h" />
+    <ClInclude Include="Source\ImGuiSystem.h" />
+    <ClInclude Include="Source\InputSystem.h" />
+    <ClInclude Include="Source\Library.h" />
+    <ClInclude Include="Source\Material.h" />
+    <ClInclude Include="Source\MathDefs.h" />
+    <ClInclude Include="Source\Mesh.h" />
+    <ClInclude Include="Source\Model.h" />
+    <ClInclude Include="Source\NamedObject.h" />
+    <ClInclude Include="Source\Object.h" />
+    <ClInclude Include="Source\Physics.h" />
+    <ClInclude Include="Source\PlatformSystem.h" />
+    <ClInclude Include="Source\Random.h" />
+    <ClInclude Include="Source\FrameBuffer.h" />
+    <ClInclude Include="Source\Sampler.h" />
+    <ClInclude Include="Source\Scene.h" />
+    <ClInclude Include="Source\SceneSystem.h" />
+    <ClInclude Include="Source\Shader.h" />
+    <ClInclude Include="Source\Sound.h" />
+    <ClInclude Include="Source\Sprite.h" />
+    <ClInclude Include="Source\SpriteSource.h" />
+    <ClInclude Include="Source\stdafx.h" />
+    <ClInclude Include="Source\StreamIn.h" />
+    <ClInclude Include="Source\targetver.h" />
+    <ClInclude Include="Source\TextSystem.h" />
+    <ClInclude Include="Source\Texture.h" />
+    <ClInclude Include="Source\Trace.h" />
+    <ClInclude Include="Source\Transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Behaviors.def" />
+    <None Include="Source\Component.inl" />
+    <None Include="Source\GraphicsBuffer.inl" />
+    <None Include="Source\ImGuiLibrary.inl" />
+    <ClCompile Include="Source\ImGuiPhysicsBase.cpp" />
+    <ClCompile Include="Source\ImGuiTransformBase.cpp" />
+    <None Include="Source\IOSystem.inl" />
+    <None Include="Source\LibraryStatic.inl" />
+    <None Include="Source\StreamOut.inl" />
+    <None Include="Source\Systems.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

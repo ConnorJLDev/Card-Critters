@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "DeckIcon",
+    "Texture": "DeckIcon.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

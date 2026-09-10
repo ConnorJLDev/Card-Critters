@@ -1,0 +1,16 @@
+{
+  "Entity": {
+    "Name": "Background",
+    "Components": {
+      "Transform": {
+      },
+      "Sprite": {
+        "SpriteSource": "GameBackdropWIP.jpg",
+		"FrameIndex": 0,
+		"Alpha": 1.0,
+		"ZLayer": -20,
+		"Text": ""
+      }
+    }
+  }
+}

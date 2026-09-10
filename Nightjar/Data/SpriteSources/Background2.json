@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "Background2",
+	"Texture": "Level2.jpg",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

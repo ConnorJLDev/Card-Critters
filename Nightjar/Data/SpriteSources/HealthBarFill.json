@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "HealthBarFill",
+    "Texture": "horizontal_fill.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

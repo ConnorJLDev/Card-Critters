@@ -1,0 +1,8 @@
+{
+  "Shader": {
+    "Name": "ParticlesRender",
+	"Vertex": "Particles/Render",
+	"Geometry": "Particles/Render",
+	"Fragment": "Particles/Render"
+  }
+}

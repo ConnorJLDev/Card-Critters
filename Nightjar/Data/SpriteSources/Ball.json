@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "Ball",
+	"Texture": "ball.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

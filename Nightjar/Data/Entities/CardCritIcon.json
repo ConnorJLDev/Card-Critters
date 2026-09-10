@@ -1,0 +1,26 @@
+{
+  "Entity": {
+    "Name": "CardCritIcon",
+    "Components": {
+      "Transform": {
+		 "Position": [
+				-0.24,
+				-0.034
+			],
+			"Scale": [
+				1,
+				1
+			]
+      },
+      "Sprite": {
+        "SpriteSource": "CardCritIcon",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+        "ZLayer": 5,
+        "Text": ""
+      },
+	  "Animation": {
+	  }
+    }
+  }
+}

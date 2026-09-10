@@ -1,0 +1,24 @@
+{
+  "Entity": {
+    "Name": "TurnText",
+		"Components": {
+			"Transform": {
+				"Position": [
+					320,
+					-20
+				],
+				"Rotation": 0.0,
+				"Scale": [
+					239.4,
+					250
+				]
+			},
+			"SpriteText": {
+				"Tint": [ 1, 1, 1, 1 ],
+				"Zlayer": 1,
+				"Text": "TURN TEXT",
+				"Font": "Happy_Monkey/HappyMonkey-Regular.ttf"
+			}
+		}
+  }
+}

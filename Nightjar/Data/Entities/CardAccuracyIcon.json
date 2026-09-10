@@ -1,0 +1,26 @@
+{
+  "Entity": {
+    "Name": "CardAccuracyIcon",
+    "Components": {
+      "Transform": {
+		  "Position": [
+				0.05,
+				-0.04
+			],
+			"Scale": [
+				1,
+				1
+			]
+      },
+      "Sprite": {
+        "SpriteSource": "CardAccuracyIcon",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+        "ZLayer": 5,
+        "Text": ""
+      },
+	  "Animation": {
+	  }
+    }
+  }
+}

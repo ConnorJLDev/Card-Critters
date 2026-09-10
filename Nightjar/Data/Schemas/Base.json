@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$id": "/Schemas/Base",
+  "title": "NamedObject",
+  "description": "This document provides the base structure of a NamedObject.",
+  "type": "object",
+  "properties": {
+    "ReadKey": {
+      "description": "Root key that asserts the type of object.",
+      "type": "object",
+      "properties": {
+        "Name": {
+          "description": "Name of the NamedObject.",
+          "type": "string",
+          "pattern": "^RequiredName$"
+        }
+      },
+      "required": [ "Name" ],
+      "additionalProperties": true
+    }
+  },
+  "required": [ "ReadKey" ],
+  "additionalProperties": false
+}

@@ -1,0 +1,26 @@
+{
+  "Entity": {
+    "Name": "DeckIcon",
+    "Components": {
+      "Transform": {
+		  "Position": [
+				690.0,
+				-202.0
+			],
+			"Scale": [
+				120.0,
+				180.0
+			]
+      },
+      "Sprite": {
+        "SpriteSource": "DeckIcon",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+        "ZLayer": 5,
+        "Text": ""
+      },
+	  "Animation": {
+	  }
+    }
+  }
+}

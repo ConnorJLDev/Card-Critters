@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardPebble",
+			"Card Type": "ATTACK",
+			"Damage": 10,
+			"Heal Amount": 0,
+			"Move": 0,
+			"Defense": 0,
+			"Cost": 2,
+			"Accuracy": 50,
+			"Critical Hit Chance": 20,
+			"Sound":  "Impact"
+    }
+}

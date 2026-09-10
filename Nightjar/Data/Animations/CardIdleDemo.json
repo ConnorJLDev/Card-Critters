@@ -1,0 +1,34 @@
+{
+	"Animation": {
+		"Name": "CardIdleDemo",
+		"Loop": "Mirror",
+		"Duration": 10,
+		"Links": [
+			{
+				"Type": "Model",
+				"Bones": [
+				{
+					"Name": "Root",
+					"Flags": [
+						"ScaleExists",
+						"ScaleUniform",
+						"ScaleConst",
+						"RotationExists",
+						"RotationConst",
+						"TranslationExists",
+						"TranslationUniform",
+						"TranslationConst"
+					]
+				}
+				],
+				"Curves": [
+					100,
+					-1.57079632679489, 0, 0,
+					0
+				]
+			}
+		],
+		"Curves": [
+		]
+	}
+}

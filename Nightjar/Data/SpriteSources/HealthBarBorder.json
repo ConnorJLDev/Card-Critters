@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "HealthBarBorder",
+    "Texture": "horizontal_border.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

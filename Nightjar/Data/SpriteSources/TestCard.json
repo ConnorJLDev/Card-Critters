@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "TestCard",
+	"Texture": "Test Card Image.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

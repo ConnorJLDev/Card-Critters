@@ -1,0 +1,39 @@
+{
+	"Animation": {
+		"Name": "AllyAttack",
+		"Loop": "Stop",
+		"Duration": 2,
+		"Links": [
+			{
+				"Type": "Transform",
+				"Flags": [
+					"TranslationExists",
+					"TranslationZConst"
+				],
+				"Curves": [
+					0, 1, 0
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Cubic",
+				"Data": [
+					    0,  0, -1,  1,  0,
+					  0.5,  0,  3, -3,  1,
+					    1,  1,  0,  0,  0,
+					  1.5,  1, -1,  0,  0,
+					    2,  0,  0,  0,  0
+				]
+			},
+			{
+				"Type": "Cubic",
+				"Data": [
+					    0,   0,    0,     0, 0,
+					  1.5,   0, 0.55, -0.55, 0,
+					    2,   0,    0,     0, 0
+				]
+			}
+		]
+	}
+}

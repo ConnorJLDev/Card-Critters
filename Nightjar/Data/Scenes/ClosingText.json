@@ -1,0 +1,119 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                    },
+                    "Camera": {
+                    }
+                }
+            },
+            {
+                "Name": "Background2",
+                "Archetype": "Background2",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            900.0,
+                            -300.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            3840.0,
+                            2160.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            -7.8,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "Background2",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 1,
+                        "Text": ""
+                    }
+                }
+            },
+            {
+                "Name": "PauseBackground",
+                "Archetype": "PauseBackground",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 702.3141479492188,
+                        "Scale": [
+                            3000.0,
+                            3000.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 0.75,
+                        "ZLayer": 7,
+                        "Text": "",
+                        "Tint": [ 0.1, 0.1, 0.1, 1 ]
+                    }
+                }
+            },
+            {
+                "Name": "ClosingText",
+                "Archetype": "ClosingText",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0.0, 0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 1920.0, 1080.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "ClosingTextImage",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 10,
+                        "Text": "",
+                        "Font": "Happy_Monkey/HappyMonkey-Regular.ttf",
+                        "Text Allignment": 0.0
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            ""
+                        ],
+                        "OnMessagesEnd": "TransitionScene:Win"
+                    },
+                    "ColliderRect": { "Size": [ 1000, 1000 ] }
+
+                }
+            }
+        ]
+    }
+}

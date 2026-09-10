@@ -1,0 +1,19 @@
+{
+  "Material": {
+    "Name": "Cube",
+	"Shader": "Cube",
+	"FaceCull": "Back",
+	"Properties": [
+	{
+	  "Name": "colorTint",
+	  "Type": "Vec4",
+	  "Value": [ 1.0, 1.0, 1.0, 1.0 ]
+	},
+	{
+	  "Name": "colorAdd",
+	  "Type": "Vec4",
+	  "Value": [ 0.0, 0.0, 0.0, 0.0 ]
+	}
+	]
+  }
+}

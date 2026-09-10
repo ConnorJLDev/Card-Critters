@@ -1,0 +1,15 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>TemplateSystem</DefaultName>
+    <Name>TemplateSystem</Name>
+    <Description>Template class for creating new, derived systems.</Description>
+    <ProjectType>VC</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cpp" ReplaceParameters="true">TemplateSystem.cpp</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.h" ReplaceParameters="true">TemplateSystem.h</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

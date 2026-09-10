@@ -1,0 +1,7 @@
+{
+  "Shader": {
+    "Name": "SimpleCircle",
+	"Vertex": "Simple",
+	"Fragment": "SimpleCircle"
+  }
+}

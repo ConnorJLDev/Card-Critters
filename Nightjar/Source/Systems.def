@@ -1,0 +1,37 @@
+﻿//------------------------------------------------------------------------------
+//
+// File Name:	Systems.def
+// Author(s):	Jonathan Sandquist (jonathan.s)
+// Course:		GAM200F25
+// Project:		Card Critters
+// Purpose:		Common definition file to process all system types.
+//
+// Copyright © 2025 DigiPen (USA) Corporation.
+//
+//------------------------------------------------------------------------------
+
+//------------------------------------------------------------------------------
+// Preprocessor Directives:
+//------------------------------------------------------------------------------
+
+// Engine systems
+REGISTER_SYSTEM(IOSystem)
+REGISTER_SYSTEM(PersistenceSystem)
+REGISTER_SYSTEM(PlatformSystem)
+REGISTER_SYSTEM(PerformanceSystem)
+REGISTER_SYSTEM(InputSystem)
+REGISTER_SYSTEM(GraphicsSystem)
+REGISTER_SYSTEM(TextSystem)
+REGISTER_SYSTEM(AudioSystem)
+REGISTER_SYSTEM(MessageSystem)
+REGISTER_SYSTEM(SceneSystem)
+
+// Game systems
+REGISTER_SYSTEM(SaveSystem)
+REGISTER_SYSTEM(CheatSystem)
+REGISTER_SYSTEM(TurnSystem)
+
+// Engine systems that need SceneSystem::IsChanging
+#ifdef _EDITOR
+REGISTER_SYSTEM(ImGuiSystem)
+#endif

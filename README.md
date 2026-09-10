@@ -1,0 +1,1 @@
+This is the repository for Card Critters, the game being developed by Nightjar!

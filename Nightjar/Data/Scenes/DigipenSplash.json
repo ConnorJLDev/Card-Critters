@@ -1,0 +1,159 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                    },
+                    "Camera": {
+                    }
+                }
+            },
+            {
+                "Name": "DigiPenLogo",
+                "Archetype": "DigiPenLogo",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            1010.0,
+                            244.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "DigipenWhite",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 1,
+                        "Text": ""
+                    }
+                }
+            },
+            {
+                "Name": "PauseBackground",
+                "Archetype": "PauseBackground",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 702.3141479492188,
+                        "Scale": [
+                            3000.0,
+                            3000.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 0.91,
+                        "ZLayer": 0,
+                        "Text": "",
+                        "Tint": [ 0.0, 0.0, 0.0, 1 ]
+                    }
+                }
+            },
+            {
+                "Name": "TimerEntity",
+                "Archetype": "TimerEntity",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 702.3141479492188,
+                        "Scale": [
+                            3000.0,
+                            3000.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 0.0,
+                        "ZLayer": 0,
+                        "Text": "",
+                        "Tint": [ 0.0, 0.0, 0.0, 1 ]
+                    },
+                    "BehaviorSceneTransitionTimer": {
+                        "Time": 0,
+                        "TimerEnd": 2,
+                        "NextSceneName": "FmodSplash"
+                    }
+                }
+            },
+            {
+                "Name": "Button",
+                "Archetype": "Button",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ -740.0, 40.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 0.0,
+                        "ZLayer": 0,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            ""
+                        ],
+                        "OnMessagesEnd": "TransitionScene:MainMenu"
+                    },
+                    "ColliderRect": { "Size": [ 100, 100 ] }
+
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "Entity": {
+    "Name": "CardCritText",
+    "Components": {
+		"Transform": {
+			"Position": [
+				-0.16,
+				-0.375
+		
+			],
+			"Rotation": 0.0,
+			"Scale": [
+				0.6,
+				0.6
+			]
+		},
+		"SpriteText": {
+			"Tint": [0,0,0,1],
+			"Zlayer": 1,
+			"Text": "CARD TEXT",
+			"Font": "Happy_Monkey/HappyMonkey-Regular.ttf"
+		}
+    }
+  }
+}

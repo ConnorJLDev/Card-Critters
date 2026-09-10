@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "TestBird",
+	"Texture": "test yellow bird.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

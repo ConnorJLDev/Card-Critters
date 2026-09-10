@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardEarthquake",
+			"Card Type": "ATTACK",
+			"Damage": 15x4,
+			"Heal Amount": 0,
+			"Move": 1,
+			"Defense": 0,
+			"Cost": 2,
+			"Accuracy": 90,
+			"Critical Hit Chance": 20,
+			"Sound":  "Impact"
+    }
+}

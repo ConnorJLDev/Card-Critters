@@ -1,0 +1,7 @@
+{
+  "Shader": {
+    "Name": "Skinned",
+	"Vertex": "Skinned",
+	"Fragment": "Skinned"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "Shader": {
+    "Name": "Sprite",
+	"Vertex": "Sprite",
+	"Fragment": "Sprite"
+  }
+}

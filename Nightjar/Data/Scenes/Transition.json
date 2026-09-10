@@ -1,0 +1,42 @@
+{
+  "Scene": {
+    "Entities": [
+      {
+        "Name": "Camera",
+        "Archetype": "Camera",
+        "Scene Write": true,
+        "Components": {
+          "Transform": {
+          },
+          "Camera": {
+          }
+        }
+      },
+      {
+        "Name": "Fade",
+        "Archetype": "Background",
+        "Scene Write": true,
+        "Components": {
+          "Transform": {
+            "Position": [ 0.0, 1.3 ],
+            "Rotation": 0.0,
+            "Scale": [ 1920.0, 1080.0 ]
+          },
+          "Sprite": {
+            "SpriteSource": "BLANK",
+            "FrameIndex": 0,
+            "Alpha": 1.0,
+            "ZLayer": 20,
+            "Text": "",
+            "Tint": [ 0.0, 0.0, 0.0, 1.0 ]
+          },
+          "BehaviorTransition": {
+          },
+          "Animation": {
+            "Sequence": "Fade"
+          }
+        }
+      }
+    ]
+  }
+}

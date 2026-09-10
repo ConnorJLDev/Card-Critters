@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "nextarrow",
+    "Texture": "arrow.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

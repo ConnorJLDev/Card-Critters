@@ -1,0 +1,31 @@
+{
+  "Entity": {
+    "Name": "TextBox",
+    "Components": {
+      "Transform": {
+        "Scale": [ 100, 100 ]
+      },
+      "Sprite": {
+        "SpriteSource": "BLANK",
+        "FrameIndex": 0,
+        "Tint": [ 0.5, 0, 1, 1 ],
+        "Zlayer": 1
+      },
+      "ColliderRect": {
+        "Size": [ 1, 1 ]
+      },
+      "BehaviorMessageBox": {
+          "Messages": [
+            "I HAVE NO SELF CONTROL",
+            "IHAVENOSELFCONTROL",
+            "awoo",
+            "arf",
+            "bark",
+            "arf",
+            "bark"
+          ],
+          "OnMessagesEnd": "ChangeScene:Level3"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardDoubleStab",
+			"Card Type": "ATTACK",
+			"Damage": 40,
+			"Heal Amount": 0,
+			"Move": 0,
+			"Defense": 0,
+			"Cost": 3,
+			"Accuracy": 80,
+			"Critical Hit Chance": 50,
+			"Sound":  "Impact"
+    }
+}

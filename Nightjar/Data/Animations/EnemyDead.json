@@ -1,0 +1,24 @@
+{
+	"Animation": {
+		"Name": "EnemyDead",
+		"Loop": "Stop",
+		"Duration": 1,
+		"Links": [
+			{
+				"Type": "Transform",
+				"Flags": [
+					"RotationExists",
+					"RotationConst",
+					"TranslationExists",
+					"TranslationConst"
+				],
+				"Curves": [
+					0, 0, 90,
+					0, -0.4, 0
+				]
+			}
+		],
+		"Curves": [
+		]
+	}
+}

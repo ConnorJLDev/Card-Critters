@@ -1,0 +1,13 @@
+{
+    "Entity": {
+        "Name": "Party",
+        "Scene Write": true,
+        "Components": {
+          "Transform": {
+          },
+          "BehaviorParty": {
+            "Next Scene": "Level3"
+          }
+        }
+    }
+}

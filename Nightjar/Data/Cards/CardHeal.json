@@ -1,0 +1,12 @@
+{
+  "Card": {
+    "Name": "CardHeal",
+    "Card Type": "HEAL",
+    "Damage": 0,
+    "Heal Amount": 15,
+    "Move": 0,
+    "Defense": 0,
+    "Cost": 2,
+    "Sound": "Heal"
+  }
+}

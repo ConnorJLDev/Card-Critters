@@ -1,0 +1,12 @@
+{
+  "Card": {
+    "Name": "CardAttackSmall",
+    "Card Type": "ATTACK",
+    "Damage": 19,
+    "Heal Amount": 0,
+    "Move": 0,
+    "Defense": 0,
+    "Cost": 2,
+    "Sound": "Impact"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Entity": {
+    "Name": "HealthBarBorder",
+    "Components": {
+      "Transform": {
+			"Scale": [
+				1,
+				0.2
+			]
+      },
+      "Sprite": {
+        "SpriteSource": "HealthBarBorder",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+        "ZLayer": 5,
+        "Text": ""
+      },
+	  "Animation": {
+	  }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+Kenney: Creative Commons Zero, CC0
+Dear ImGui: Copyright (c) 2014-2025 Omar Cornut
+FreeType Project: Copyright (c) 1996-2002, 2006 David Turner, Robert Wilhelm, and Werner Lemberg
+glad: Copyright (c) 2013-2022 David Herberth
+glfw: Copyright (c) 2002-2006 Marcus Geelnard, Copyright (c) 2006-2019 Camilla Löwy
+glm: Copyright (c) 2005 G-Truc Creation
+RapidJSON: Copyright (c) 2015 THL A29 Limited, a Tencent company, and Milo Yip.  All rights reserved.
+FMOD: Copyright (c) 2004-2022 Firelight Technologies Pty Ltd.
+stb_image: CC0 1.0 Universal

@@ -1,0 +1,19 @@
+{
+  "Entity": {
+    "Name": "Suzanne",
+    "Components": {
+      "Transform": {
+        "3D": true,
+        "Translation": [ 0, 0, 0 ],
+        "Rotation": [ 0, 0, 0 ],
+        "Scale": [ 1, 1, 1 ]
+      },
+      "Animation": {
+        "Sequence": "Demo3D"
+      },
+      "Model": {
+        "Model": "Suzanne"
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+    "Scene": {
+	"dtMultiplier" : 0.0,
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                    },
+                    "Camera": {
+                    }
+                }
+            },
+            {
+                "Name": "PauseBackground",
+                "Archetype": "PauseBackground",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 702.3141479492188,
+                        "Scale": [
+                            3000.0,
+                            3000.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 0.91,
+                        "ZLayer": 17,
+                        "Text": "",
+                        "Tint": [ 0.1, 0.1, 0.1, 1 ]
+                    }
+                }
+            },
+            {
+                "Name": "PausedText",
+                "Archetype": "PausedText",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, 250 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 650.0, 650.0 ]
+                    },
+                    "SpriteText": {
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": "PAUSED",
+                        "Font": "Happy_Monkey/HappyMonkey-Regular.ttf"
+                    }
+                }
+            },
+            {
+                "Name": "Button",
+                "Archetype": "Button",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, 40.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "RESUME"
+                        ],
+                        "OnMessagesEnd": "ChangeScene@1:"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+
+                }
+            },
+            {
+                "Name": "Button2",
+                "Archetype": "Button2",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -120.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "HOW TO PLAY"
+                        ],
+                        "OnMessagesEnd": "ChangeScene@1:HowToPlayOne"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+                }
+            },
+            {
+                "Name": "Button3",
+                "Archetype": "Button3",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -280.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": ""
+                    },
+                  "BehaviorMessageBox": {
+                    "Messages": [
+                      "SETTINGS"
+                    ],
+                    "OnMessagesEnd": "ChangeScene@1:SettingsPause"
+                  },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+                }
+            },
+            {
+                "Name": "Button4",
+                "Archetype": "Button4",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -440.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "MAIN MENU"
+                        ],
+                        "OnMessagesEnd": "ChangeScene@3:QuitConfirmation"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+                }
+            }
+        ]
+    }
+}

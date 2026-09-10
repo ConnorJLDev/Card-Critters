@@ -1,0 +1,30 @@
+{
+	"Animation": {
+		"Name": "DamageNumber",
+		"Loop": "Stop",
+		"Duration": 2,
+		"Links": [
+			{
+				"Type": "Transform",
+				"Flags": [
+					"TranslationExists",
+					"TranslationXConst",
+					"TranslationZConst"
+				],
+				"Curves": [
+					0, 0, 0
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Linear",
+				"Data": [
+					  0,   0, 0.03,
+					  1,0.03, 0,
+					  2,   0, 0
+				]
+			}
+		]
+	}
+}

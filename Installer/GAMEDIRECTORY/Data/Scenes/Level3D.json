@@ -1,0 +1,119 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Ally",
+                "Transform": {
+                    "Position": [
+                        -126.78099822998047,
+                        287.0710144042969
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        509.9736633300781,
+                        844.3272094726563
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 0.0
+                },
+                "Sprite": {
+                    "SpriteSource": "AllyBird",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 2,
+                    "Text": ""
+                },
+                "Behavior": {
+                    "Type": "Ally"
+                },
+                "Collider": {
+                    "Type": "Circle",
+                    "Radius": 20.0
+                }
+            },
+            {
+                "Name": "TextDemo",
+                "Transform": {
+                    "Position": [
+                        50.0,
+                        200.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        200.0,
+                        200.0
+                    ]
+                },
+                "Sprite": {
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 1,
+                    "Text": "Nightjar",
+					"Font": "Kenney/Kenney Rocket.ttf"
+                }
+            },
+            {
+                "Name": "TextDemo",
+                "Transform": {
+                    "Position": [
+                        -15.0,
+                        0.0
+                    ],
+                    "Rotation": -50.0,
+                    "Scale": [
+                        500.0,
+                        200.0
+                    ]
+                },
+                "Sprite": {
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 1,
+                    "Text": "Nightjar",
+					"Font": "Kenney/Kenney Blocks.ttf"
+                }
+            },
+            {
+                "Name": "Card3D",
+                "Transform": {
+                    "Position": [
+                        -225.68099975585938,
+                        -200.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        1.0,
+                        1.0
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 0.0
+                },
+                "Collider": {
+                    "Type": "Rect",
+                    "Position": [
+                        120.0,
+                        190.0
+                    ]
+                }
+            }
+        ]
+    }
+}

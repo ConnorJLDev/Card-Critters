@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "NightjarLogo",
+	"Texture": "Credits1.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

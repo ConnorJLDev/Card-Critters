@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "Lose",
+	"Texture": "You_Lose.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

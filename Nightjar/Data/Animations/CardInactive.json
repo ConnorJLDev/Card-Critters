@@ -1,0 +1,48 @@
+{
+	"Animation": {
+		"Name": "CardInactive",
+		"Loop": "Stop",
+		"Duration": 0.5,
+		"Links": [
+			{
+				"Type": "Transform",
+				"Flags": [
+					"ScaleExists",
+					"ScaleZConst"
+				],
+				"Curves": [
+					0, 0, 1
+				]
+			},
+			{
+				"Type": "Sprite",
+				"Flags": [
+					"RedExists",
+					"GreenExists",
+					"BlueExists"
+				],
+				"Curves": [
+					1,
+					1,
+					1
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Cubic",
+				"Data": [
+					  0, 200, -100,  50, 0,
+					0.5, 150,    0,   0, 0
+				]
+			},
+			{
+				"Type": "Linear",
+				"Data": [
+					  0, 0.5, -0.2,
+					0.5, 0.3, 0
+				]
+			}
+		]
+	}
+}

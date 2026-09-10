@@ -1,0 +1,7 @@
+{
+  "Material": {
+    "Name": "Card",
+	"Shader": "Skinned",
+	"FaceCull": "Back"
+  }
+}

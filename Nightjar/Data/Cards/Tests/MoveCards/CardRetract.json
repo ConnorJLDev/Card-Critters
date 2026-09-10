@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardRetract",
+			"Card Type": "MOVE",
+			"Damage": 0,
+			"Heal Amount": 0,
+			"Move": -1,
+			"Defense": 0,
+			"Cost": 1,
+			"Accuracy": 100,
+			"Critical Hit Chance": 0,
+			"Sound":  "Impact"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "DigipenWhite",
+    "Texture": "DigiPen_RGB_White.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

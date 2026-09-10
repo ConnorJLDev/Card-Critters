@@ -1,0 +1,105 @@
+{
+  "Scene": {
+    "Entities": [
+      {
+        "Name": "Camera",
+        "Archetype": "Camera",
+        "Scene Write": true,
+        "Components": {
+          "Transform": {
+          },
+          "Camera": {
+          }
+        }
+      },
+      {
+        "Name": "Background",
+        "Archetype": "Background",
+        "Scene Write": true,
+        "Components": {
+          "Transform": {
+            "Position": [ 0.0, 1.3 ],
+            "Rotation": 0.0,
+            "Scale": [ 1920.0, 1080.0 ]
+          },
+          "Sprite": {
+            "SpriteSource": "Background",
+            "FrameIndex": 0,
+            "Alpha": 1.0,
+            "ZLayer": 0,
+            "Text": ""
+          }
+        }
+      },
+      {
+        "Name": "Party",
+        "Archetype": "Party",
+        "Scene Write": true,
+        "Components": {
+          "Transform": {
+            "Position": [ -300.0, -210.0 ],
+            "Rotation": 0.0,
+            "Scale": [ 1.0, 1.0 ]
+          },
+          "BehaviorParty": {
+            "IsPlayer": true,
+            "Next Scene": "Lose"
+          }
+        }
+      },
+      {
+        "Name": "EnemyParty",
+        "Archetype": "Party",
+        "Scene Write": true,
+        "Components": {
+          "Transform": {
+            "Position": [ 300.0, -210.0 ],
+            "Rotation": 0.0,
+            "Scale": [ -1.0, 1.0 ]
+          },
+          "BehaviorParty": {
+            "Characters": [ "Demetre", "Igor", "Demetre" ],
+            "Next Scene": "ClosingText"
+          }
+        }
+      },
+
+      {
+        "Name": "Audio",
+        "Archetype": "Audio",
+        "Scene Write": true,
+        "Components": {
+          "Transform": {
+            "Position": [ 0.0, 0.0 ],
+            "Rotation": 0.0,
+            "Scale": [ 1.0, 1.0 ]
+          },
+          "AudioEmitter": { "Sound": "BattleMusic" },
+          "BehaviorAudio": {}
+        }
+      },
+
+      {
+        "Name": "Mouse",
+        "Archetype": "Mouse",
+        "Scene Write": true,
+        "Components": {
+          "Transform": {
+            "Position": [ -855.0, 90.44599151611328 ],
+            "Rotation": 0.0,
+            "Scale": [ 40.0, 40.0 ]
+          },
+          "ColliderCircle": { "Radius": 20.0 },
+          "Sprite": {
+            "SpriteSource": "Ball",
+            "FrameIndex": 0,
+            "Alpha": 1.0,
+            "ZLayer": 1,
+            "Text": ""
+          },
+          "BehaviorMouse": {}
+        }
+      }
+    ]
+  }
+}

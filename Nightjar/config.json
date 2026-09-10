@@ -1,0 +1,8 @@
+{
+  "WindowSize": [ 1280, 720 ],
+  "WindowTitle": "Card Critters",
+  "GraphicsVersion": [ 3, 3 ],
+  "GraphicsProfile": "Core",
+  "SceneInit": "DigipenSplash",
+  "VSync": true
+}

@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "Credits",
+	"Texture": "Credits_AllInOne",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

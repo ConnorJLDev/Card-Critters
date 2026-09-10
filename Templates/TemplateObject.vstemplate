@@ -1,0 +1,16 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>TemplateObject</DefaultName>
+    <Name>TemplateObject</Name>
+    <Description>Template class for creating new, derived objects.</Description>
+    <ProjectType>VC</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cpp" ReplaceParameters="true">TemplateObject.cpp</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.inl" ReplaceParameters="true">TemplateObject.inl</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.h" ReplaceParameters="true">TemplateObject.h</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

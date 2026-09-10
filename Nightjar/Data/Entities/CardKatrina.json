@@ -1,0 +1,54 @@
+{
+    "Entity": {
+        "Name": "CardKatrina",
+      "Components": {
+        "Transform": {
+          "Position": [
+            0.0,
+            -200.0
+          ],
+          "Rotation": 0.0,
+          "Scale": [
+            100.0,
+            200.0
+          ]
+        },
+        "Physics": {
+          "Acceleration": [
+            0.0,
+            0.0
+          ],
+          "Velocity": [
+            0.0,
+            0.0
+          ],
+          "RotationalVelocity": 0.0
+        },
+        "Sprite": {
+          "SpriteSource": "wolf2 card",
+          "FrameIndex": 0,
+          "Alpha": 1.0,
+          "Zlayer": 1,
+          "Text": ""
+        },
+       "BehaviorCard": {
+			
+          "Card Type": "ATTACK",
+          "Damage": 64,
+          "Heal Amount": 0,
+          "Move": 0,
+          "Defense": 0,
+          "Cost": 0
+        },
+       "ColliderRect": {
+        "Size": [ 0.6, 0.95 ]
+        },
+        "Animation": {
+          "Sequence": "CardHover"
+        },
+        "AudioEmitter": {
+          "Sound": "Impact"
+        }
+      }
+    }
+}

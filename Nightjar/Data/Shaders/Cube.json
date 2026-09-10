@@ -1,0 +1,7 @@
+{
+  "Shader": {
+    "Name": "Cube",
+	"Vertex": "Cube",
+	"Fragment": "Cube"
+  }
+}

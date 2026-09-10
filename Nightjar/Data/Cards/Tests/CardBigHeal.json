@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardBigHeal",
+			"Card Type": "HEAL",
+			"Damage": 0,
+			"Heal Amount": 50,
+			"Move": 0,
+			"Defense": 0,
+			"Cost": 3,
+			"Accuracy": 100,
+			"Critical Hit Chance": 0,
+			"Sound":  "Impact"
+    }
+}

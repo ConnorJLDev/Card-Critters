@@ -1,0 +1,6 @@
+{
+  "Material": {
+    "Name": "Sprite",
+	"Shader": "Sprite"
+  }
+}

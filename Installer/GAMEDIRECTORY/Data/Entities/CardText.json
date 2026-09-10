@@ -1,0 +1,25 @@
+{
+  "Entity": {
+    "Name": "CardText",
+    "Components": {
+		"Transform": {
+			"Position": [
+				-0.25,
+				-0.1
+			],
+			"Rotation": 0.0,
+			"Scale": [
+				0.6,
+				0.6
+			]
+		},
+		"Sprite": {
+			"FrameIndex": 0,
+			"Tint": [0,0,0,1],
+			"Zlayer": 1,
+			"Text": "CARD TEXT",
+			"Font": "Kenney/Kenney Rocket.ttf"
+		}
+    }
+  }
+}

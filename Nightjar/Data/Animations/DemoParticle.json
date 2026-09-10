@@ -1,0 +1,55 @@
+{
+	"Animation": {
+		"Name": "DemoParticle",
+		"Loop": "Stop",
+		"Duration": 10,
+		"Links": [
+			{
+				"Type": "Material",
+				"Properties": [
+				{
+					"Name": "colorTint",
+					"Type": "Vec4",
+					"Const": [ true, true, true, true ]
+				},
+				{
+					"Name": "colorAdd",
+					"Type": "Vec4",
+					"Const": [ true, false, false, true ]
+				}
+				],
+				"Curves": [
+					0.5, 1, 1, 1,
+					0.2, 0, 0, 1
+				]
+			},
+			{
+				"Type": "Transform",
+				"Flags": [
+					"ScaleExists",
+					"ScaleUniform"
+				],
+				"Curves": [
+					1
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Linear",
+				"Data": [
+					0, 1, 0,
+					1, 1, -1,
+					2, 0, 0
+				]
+			},
+			{
+				"Type": "Linear",
+				"Data": [
+					0, 0, 1,
+					0.5, 1, 0
+				]
+			}
+		]
+	}
+}

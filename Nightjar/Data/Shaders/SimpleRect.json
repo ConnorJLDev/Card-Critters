@@ -1,0 +1,7 @@
+{
+  "Shader": {
+    "Name": "SimpleRect",
+	"Vertex": "Simple",
+	"Fragment": "SimpleRect"
+  }
+}

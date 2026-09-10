@@ -1,0 +1,8 @@
+{
+  "Shader": {
+    "Name": "Text",
+	"Vertex": "Text",
+	"Geometry": "Text",
+	"Fragment": "Text"
+  }
+}

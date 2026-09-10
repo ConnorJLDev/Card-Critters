@@ -1,0 +1,17 @@
+{
+  "Card": {
+    "Name": "CardAttackDisarm",
+    "Card Type": "ATTACK",
+    "Damage": 20,
+    "Heal Amount": 0,
+    "Move": 0,
+    "Defense": 0,
+    "Cost": 3,
+    "Accuracy": 75,
+    "Critical Hit Chance": 10,
+    "Status Effect": "DISARM",
+    "Status Duration": 2,
+    "Status Damage": 0,
+    "Sound": "Impact"
+  }
+}

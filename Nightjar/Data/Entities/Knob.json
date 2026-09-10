@@ -1,0 +1,22 @@
+{
+  "Entity": {
+    "Name": "Knob",
+    "Archetype": "Knob",
+    "Scene Write": true,
+    "Components": {
+      "Transform": {
+        "Position": [ 0.0, 0.0 ],
+        "Rotation": 0.0,
+        "Scale": [ 0.2, 0.2 ]
+      },
+      "Sprite": {
+        "SpriteSource": "StatusDisarm",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+        "ZLayer": 2,
+        "Text": ""
+      },
+      "ColliderRect": { "Size": [ 1, 1 ] }
+    }
+  }
+}

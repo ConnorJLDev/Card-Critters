@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "HandBackground",
+    "Texture": "HandBackground.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

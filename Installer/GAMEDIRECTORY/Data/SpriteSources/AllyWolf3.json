@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "AllyWolf3",
+    "Texture": "wolf3.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

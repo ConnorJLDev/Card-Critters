@@ -1,0 +1,48 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Lose",
+                "Transform": {
+                    "Position": [
+                        2.0199999809265137,
+                        0.0
+                    ],
+                    "Rotation": 702.1701049804688,
+                    "Scale": [
+                        555.5555419921875,
+                        555.5555419921875
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 5.0
+                },
+                "Sprite": {
+                    "SpriteSource": "Lose",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "ZLayer": 1,
+                    "Text": ""
+                }
+            },
+            {
+              "Name": "Audio",
+
+              "Behavior": {
+                "Type": "Audio"
+              },
+              "AudioEmitter": {
+                "Sound": "Death"
+              }
+            }
+        ]
+    }
+}

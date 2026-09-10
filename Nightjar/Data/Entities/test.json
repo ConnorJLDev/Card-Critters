@@ -1,0 +1,26 @@
+{
+  "Entity": {
+    "Name": "TestEntity",
+    "Components": {
+      "Transform": {
+        "Position": [1.0, 2.0],
+        "Rotation": 45.0,
+        "Scale": [2.0, 4.0]
+      },
+      "Sprite": {
+        "Alpha": 1.0,
+        "FrameIndex": 2,
+        "TextureName": "player.png"
+      },
+      "Physics": {
+        "Acceleration": [0.0, -9.8],
+        "Velocity": [5.0, 0.0],
+        "RotVelocity": 0.25
+      },
+      "Animation": {
+        "Clip": "Run",
+        "FrameRate": 24
+      }
+    }
+  }
+}

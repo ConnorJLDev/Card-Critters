@@ -1,0 +1,12 @@
+{
+  "Entity": {
+    "Name": "Party",
+    "Components": {
+		"Transform": {
+      },
+      "Behavior": {
+        "Type": "Party"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿//------------------------------------------------------------------------------
+//
+// File Name:	ImGuiWindows.def
+// Author(s):	Jonathan Sandquist (jonathan.s)
+// Course:		GAM200F25
+// Project:		Card Critters
+// Purpose:		Common definition file to process all ImGui window types.
+//
+// Copyright © 2025 DigiPen (USA) Corporation.
+//
+//------------------------------------------------------------------------------
+
+//------------------------------------------------------------------------------
+// Preprocessor Directives:
+//------------------------------------------------------------------------------
+
+REGISTER_IMGUI_WINDOW(ImGuiWindowConsole)
+REGISTER_IMGUI_WINDOW(ImGuiWindowEntities)
+REGISTER_IMGUI_WINDOW(ImGuiWindowFileBrowser)
+REGISTER_IMGUI_WINDOW(ImGuiWindowProperties)
+REGISTER_IMGUI_WINDOW(ImGuiWindowAudio)
+REGISTER_IMGUI_WINDOW(ImGuiWindowPerformance)
+REGISTER_IMGUI_WINDOW(ImGuiWindowAssets)
+REGISTER_IMGUI_WINDOW(ImGuiWindowTestMemory)

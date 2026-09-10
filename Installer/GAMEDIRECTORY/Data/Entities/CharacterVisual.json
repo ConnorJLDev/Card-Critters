@@ -1,0 +1,18 @@
+{
+  "Entity": {
+    "Name": "CharacterVisual",
+    "Components": {
+      "Transform": {
+      },
+      "Sprite": {
+        "SpriteSource": "",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+        "Zlayer": 1,
+        "Text": ""
+      },
+	  "Animation": {
+	  }
+    }
+  }
+}

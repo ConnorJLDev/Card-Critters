@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardLacerate",
+			"Card Type": "ATTACK",
+			"Damage": 30,
+			"Heal Amount": 0,
+			"Move": 0,
+			"Defense": 0,
+			"Cost": 3,
+			"Accuracy": 90,
+			"Critical Hit Chance": 30,
+			"Sound":  "Impact"
+    }
+}

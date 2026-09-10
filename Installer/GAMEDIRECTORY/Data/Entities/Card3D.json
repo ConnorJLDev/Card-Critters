@@ -1,0 +1,32 @@
+{
+  "Entity": {
+    "Name": "Card3D",
+    "Components": {
+      "Transform": {
+        "Position": [0.0, 0.0],
+        "Rotation": 0.0,
+        "Scale": [1.0, 1.0]
+      },
+	  "Animation": {
+		"Sequence": "Demo3D"
+	  },
+	  "Model": {
+		"Armature": "Card",
+		"Mesh": "Card",
+		"Material": "Card",
+		"BoneBindings": [
+		  "Root",
+		  "TopLeft",
+		  "TopMid",
+		  "TopRight",
+		  "MidLeft",
+		  "MidMid",
+		  "MidRight",
+		  "BotLeft",
+		  "BotMid",
+		  "BotRight"
+		]
+	  }
+    }
+  }
+}

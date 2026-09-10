@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "Tombstone",
+    "Texture": "Tombstone.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

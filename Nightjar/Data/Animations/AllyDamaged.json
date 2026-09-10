@@ -1,0 +1,41 @@
+{
+	"Animation": {
+		"Name": "AllyDamaged",
+		"Loop": "Stop",
+		"Duration": 1.0,
+		"Links": [
+			{
+				"Type": "Transform",
+				"Flags": [
+					"RotationExists",
+					"RotationXConst",
+					"RotationYConst",
+					"TranslationExists",
+					"TranslationXConst",
+					"TranslationZConst"
+				],
+				"Curves": [
+					0, 0, 1,
+					0, 0, 0
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Linear",
+				"Data": [
+					  0, -0.5, 1,
+					  0.25,  0.5, -0.5,
+					  0.5,    0, 0
+				]
+			},
+			{
+				"Type": "Linear",
+				"Data": [
+					  0, 0, 6.2831853,
+					  0.5, 6.2831853, 0
+				]
+			}
+		]
+	}
+}

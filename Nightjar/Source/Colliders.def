@@ -1,0 +1,4 @@
+
+REGISTER_COLLIDER(ColliderCircle)
+REGISTER_COLLIDER(ColliderLine)
+REGISTER_COLLIDER(ColliderRect)

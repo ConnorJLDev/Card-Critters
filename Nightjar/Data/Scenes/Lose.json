@@ -1,0 +1,129 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                    },
+                    "Camera": {
+                    }
+                }
+            },
+            {
+                "Name": "Lose",
+                "Archetype": "Lose",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            1920.0,
+                            1080.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "TempLoseScreen",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 1,
+                        "Text": ""
+                    }
+                }
+            },
+            {
+                "Name": "Button",
+                "Archetype": "Button",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -320.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 2,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "TRY AGAIN"
+                        ],
+                        "OnMessagesEnd": "TransitionScene@0:Level1"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+
+                }
+            },
+            {
+                "Name": "Button",
+                "Archetype": "Button",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -460.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 2,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "MAIN MENU"
+                        ],
+                        "OnMessagesEnd": "TransitionScene@0:MainMenu"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+
+                }
+            },
+            {
+                "Name": "Audio",
+                "Archetype": "Audio",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            1.0,
+                            1.0
+                        ]
+                    },
+                    "AudioEmitter": {
+                        "Sound": "Death"
+                    },
+                    "BehaviorAudio": {}
+                }
+            }
+        ]
+    }
+}

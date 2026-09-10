@@ -1,0 +1,14 @@
+{
+  "Card": {
+    "Name": "CardAttackSmall",
+    "Card Type": "ATTACK",
+    "Damage": 25,
+    "Heal Amount": 0,
+    "Move": 0,
+    "Defense": 0,
+    "Cost": 2,
+	"Accuracy": 95,
+	"Critical Hit Chance": 35,
+    "Sound": "Impact"
+  }
+}

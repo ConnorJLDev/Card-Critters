@@ -1,0 +1,191 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                    },
+                    "Camera": {
+                    }
+                }
+            },
+            {
+                "Name": "QuitConfirmation",
+                "Archetype": "QuitConfirmation",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            600.0,
+                            350.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": "",
+                        "Tint": [ 0.7, 0.5, 0.3, 1 ]
+                    }
+                }
+            },
+            {
+                "Name": "QuitQuestionText",
+                "Archetype": "QuitQuestionText",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, 100 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 400.0, 450.0 ]
+                    },
+                    "SpriteText": {
+                        "SpriteSource": "",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 19,
+                        "Text": "Are you sure?",
+                        "Font": "Happy_Monkey/HappyMonkey-Regular.ttf"
+                    }
+                }
+            },
+            {
+                "Name": "Button",
+                "Archetype": "Button",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -10.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 300.0, 300.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 19,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "YES"
+                        ],
+                        "OnMessagesEnd": "ChangeScene:"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+
+                }
+            },
+            {
+                "Name": "ButtonHidden",
+                "Archetype": "ButtonHidden",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -10.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 300.0, 300.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 0.0,
+                        "ZLayer": 19,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "YES"
+                        ],
+                        "OnMessagesEnd": "ChangeScene@3:"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+
+                }
+            },
+            {
+                "Name": "Button2",
+                "Archetype": "Button2",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -110.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 300.0, 300.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 19,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "NO"
+                        ],
+                        "OnMessagesEnd": "ChangeScene@3:"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+                }
+            },
+            {
+                "Name": "PauseBackground",
+                "Archetype": "PauseBackground",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 702.3141479492188,
+                        "Scale": [
+                            3000.0,
+                            3000.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 0.91,
+                        "ZLayer": 7,
+                        "Text": "",
+                        "Tint": [ 0.1, 0.1, 0.1, 1 ]
+                    }
+                }
+            }
+        ]
+    }
+}

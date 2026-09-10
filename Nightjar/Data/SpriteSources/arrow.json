@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "arrow",
+    "Texture": "floorshadow.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

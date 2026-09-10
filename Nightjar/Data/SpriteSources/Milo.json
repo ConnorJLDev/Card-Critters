@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "Milo",
+    "Texture": "Milo.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

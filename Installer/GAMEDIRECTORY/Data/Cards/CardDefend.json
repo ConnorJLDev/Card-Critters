@@ -1,0 +1,12 @@
+{
+  "Card": {
+    "Name": "CardDefend",
+    "Card Type": "DEFENSE",
+    "Damage": 0,
+    "Heal Amount": 0,
+    "Move": 0,
+    "Defense": 20,
+    "Cost": 3,
+    "Sound": "Impact"
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Ally",
+                "Transform": {
+                    "Position": [
+                        -150.17799377441406,
+                        109.40299987792969
+                    ],
+                    "Rotation": -360.0,
+                    "Scale": [
+                        100.9000015258789,
+                        154.39999389648438
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 0.0
+                },
+                "Sprite": {
+                    "SpriteSource": "AllyBird",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 1,
+                    "Text": ""
+                },
+                "Behavior": {
+                    "Type": "Ally",
+                    "Health": 30,
+                    "Cards": [
+                        "Card1",
+                        "Card2",
+                        "Card3"
+                    ]
+                },
+                "Collider": {
+                    "Type": "Circle",
+                    "Radius": 20.0
+                }
+            },
+            {
+                "Name": "Hand",
+                "Behavior": {
+                    "Type": "Hand"
+                }
+            }
+        ]
+    }
+}

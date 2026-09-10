@@ -1,0 +1,19 @@
+{
+	"Card": {
+		"Name": "CardTemplate",
+		"Card Type": "TYPE",
+		"Damage": 0,
+		"Heal Amount": 0,
+		"Move": 0,
+		"Splash Direction": 0,
+		"Hit Count": 0,
+		"Defense": 0,
+		"Cost": 0,
+		"Accuracy": 0,
+		"Critical Hit Chance": 0,
+		"Status Effect": "TYPE",
+		"Status Duration": 0,
+		"Status Damage": 0,
+		"Sound": "Impact"
+	}
+}

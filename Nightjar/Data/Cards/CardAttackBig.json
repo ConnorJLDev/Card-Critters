@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardAttackBig",
+			"Card Type": "ATTACK",
+			"Damage": 70,
+			"Heal Amount": 0,
+			"Move": 0,
+			"Defense": 0,
+			"Cost": 5,
+			"Accuracy": 60,
+			"Critical Hit Chance": 10,
+			"Sound":  "Impact"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "HowToPlayTwo",
+	"Texture": "HowToPlayTwo.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

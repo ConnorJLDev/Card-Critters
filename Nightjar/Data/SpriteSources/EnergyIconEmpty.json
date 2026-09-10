@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "EnergyIconEmpty",
+    "Texture": "EnergyIconEmpty.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

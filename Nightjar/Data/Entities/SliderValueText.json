@@ -1,0 +1,24 @@
+{
+  "Entity": {
+    "Name": "SliderValueText",
+    "Components": {
+		"Transform": {
+			"Position": [
+				0,
+				0
+			],
+			"Rotation": 0.0,
+			"Scale": [
+				0.6,
+				0.6
+			]
+		},
+		"SpriteText": {
+			"Tint": [1,1,1,1],
+			"Zlayer": 1,
+			"Text": "SLIDER VALUE TEXT",
+			"Font": "Happy_Monkey/HappyMonkey-Regular.ttf"
+		}
+    }
+  }
+}

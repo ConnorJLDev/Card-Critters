@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "EnemyWolf",
+    "Texture": "enemy.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

@@ -1,0 +1,70 @@
+{
+	"Animation": {
+		"Name": "Demo3D",
+		"Loop": "Mirror",
+		"Duration": 10,
+		"Links": [
+			{
+				"Type": "Model",
+				"Bones": [
+				{
+					"Name": "Root",
+					"Flags": [
+						"ScaleExists",
+						"ScaleUniform",
+						"ScaleConst",
+						"RotationExists",
+						"TranslationExists",
+						"TranslationYConst",
+						"TranslationZConst"
+					]
+				}
+				],
+				"Curves": [
+					100,
+					4, 4, 1,
+					0, 0, 0
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Linear",
+				"Data": [
+					0, 0,
+					2, -500,
+					6, 500,
+					10, -500
+				]
+			},
+			{
+				"Type": "Cubic",
+				"Data": [
+					  0, 200, 300,   0,
+					10, 300,   0,   0
+				]
+			},
+			{
+				"Type": "Cubic",
+				"Data": [
+					  0, 1, 0,   0,
+					10, 2,   0,   0
+				]
+			},
+			{
+				"Type": "Cubic",
+				"Data": [
+					  0, 2, 0,   0,
+					10, 1,   0,   0
+				]
+			},
+			{
+				"Type": "Linear",
+				"Data": [
+					  0, 0.5,
+					10,   10
+				]
+			}
+		]
+	}
+}

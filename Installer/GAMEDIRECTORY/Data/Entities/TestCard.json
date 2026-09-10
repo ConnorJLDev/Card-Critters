@@ -1,0 +1,35 @@
+{
+  "Entity": {
+    "Name": "TestCard",
+    "Components": {
+      "Transform": {
+        "Position": [0.0, -200.0],
+        "Rotation": 0.0,
+        "Scale": [200.0, 200.0]
+      },
+      "Physics": {
+        "Acceleration": [0.0, 0.0],
+        "Velocity": [0.0, 0.0],
+        "RotationalVelocity": 0.0
+      },
+      "Sprite": {
+        "SpriteSource": "TestCard",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+		"Zlayer": 3
+      },
+	  "Behavior": {
+		"Type": "Card",
+		"Card Type": "ATTACK",
+		"Damage": 1
+	  },
+      "Collider": {
+        "Type": "Rect",
+        "Position": [120.0, 190.0]
+      },
+	  "Animation": {
+		"Sequence": "CardHover"
+	  }
+    }
+  }
+}

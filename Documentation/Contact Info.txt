@@ -1,0 +1,12 @@
+Card Critters (Turn Based, Card Game, Rogue Like)     
+     
+Card Critters is a 2D, card roguelike that really makes you feel like a tactician. Playing as the battle hardened wolf, Geoff, venturing through the ever changing forest in an attempt to find his long lost father. Along the way, he must recruit other critters, some who have a passion for exploration and others who are just in it for a quick buck. Can Geoff find his way through the ever changing forest? Or will he be consumed like so many others before him... Venture forth! Card critter   
+     
+Barend Brink – Producer, ImGui, Messaging system - barend.brink@digipen.edu
+Connor Lariviere – Build Master, Serialization, Card system - connor.lariviere@digiPen.edu
+Jonathan Sandquist – Tech Liaison, Graphics, Animation - jonathan.s@digiPen.edu
+Jason Nguyen - Gameplay, UI - jason.nguyen@digipen.edu
+Andrew Lamb - Audio, Physics - andrew.lamb@digipen.edu
+
+Emergency Contact: Jonathan Sandquist, jonathan.s@digiPen.edu, (425)471-8928
+Technical Contact: Jonathan Sandquist, jonathan.s@digiPen.edu, (425)471-8928

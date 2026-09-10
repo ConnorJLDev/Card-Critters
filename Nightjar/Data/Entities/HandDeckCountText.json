@@ -1,0 +1,26 @@
+{
+  "Entity": {
+    "Name": "HandDeckCountText",
+    "Components": {
+		"Transform": {
+			"Position": [
+				648.5,
+				-195
+			],
+			"Rotation": 0.0,
+			"Scale": [
+				125,
+				125
+			]
+		},
+		"SpriteText": {
+			"FrameIndex": 0,
+			"Tint": [1,1,1,1],
+			"Zlayer": 1,
+			"Text": "HandDeckCountText",
+			"Font": "Happy_Monkey/HappyMonkey-Regular.ttf",
+            "TextAlignment": 1.0
+		}
+    }
+  }
+}

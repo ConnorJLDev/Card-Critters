@@ -1,0 +1,325 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Win",
+                "Transform": {
+                    "Position": [
+                        500.0,
+                        -500.0
+                    ],
+                    "Rotation": 2656.900146484375,
+                    "Scale": [
+                        10000.0,
+                        10000.0
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": -0.10000000149011612
+                },
+                "Sprite": {
+                    "SpriteSource": "Win",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 873
+                }
+            },
+            {
+                "Name": "Card3",
+                "Transform": {
+                    "Position": [
+                        -150.0,
+                        -200.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        200.0,
+                        200.0
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 0.0
+                },
+                "Sprite": {
+                    "SpriteSource": "TestCard",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 3
+                },
+                "Behavior": {
+                    "Type": "Card"
+                },
+                "Collider": {
+                    "Type": "Rect",
+                    "Position": [
+                        120.0,
+                        190.0
+                    ]
+                }
+            },
+            {
+                "Name": "Card2",
+                "Transform": {
+                    "Position": [
+                        150.0,
+                        -200.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        200.0,
+                        200.0
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 0.0
+                },
+                "Sprite": {
+                    "SpriteSource": "TestCard",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 3
+                },
+                "Behavior": {
+                    "Type": "Card"
+                },
+                "Collider": {
+                    "Type": "Rect",
+                    "Position": [
+                        120.0,
+                        190.0
+                    ]
+                }
+            },
+            {
+                "Name": "Card1",
+                "Transform": {
+                    "Position": [
+                        0.0,
+                        -200.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        200.0,
+                        200.0
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 0.0
+                },
+                "Sprite": {
+                    "SpriteSource": "TestCard",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 3
+                },
+                "Behavior": {
+                    "Type": "Card"
+                },
+                "Collider": {
+                    "Type": "Rect",
+                    "Position": [
+                        120.0,
+                        190.0
+                    ]
+                }
+            },
+            {
+                "Name": "Ball2",
+                "Transform": {
+                    "Position": [
+                        150.0,
+                        -20.0
+                    ],
+                    "Rotation": 8807.2236328125,
+                    "Scale": [
+                        80.0,
+                        80.0
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 60.0
+                },
+                "Sprite": {
+                    "SpriteSource": "Ball",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 2
+                }
+            },
+            {
+                "Name": "Ball1",
+                "Transform": {
+                    "Position": [
+                        -250.0,
+                        -20.0
+                    ],
+                    "Rotation": 3773.006103515625,
+                    "Scale": [
+                        80.0,
+                        80.0
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 60.0
+                },
+                "Sprite": {
+                    "SpriteSource": "Ball",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 2
+                }
+            },
+            {
+                "Name": "Ally",
+                "Transform": {
+                    "Position": [
+                        -200.0,
+                        200.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        137.10000610351563,
+                        200.0
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 0.0
+                },
+                "Sprite": {
+                    "SpriteSource": "AllyBird",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 2
+                },
+                "Behavior": {
+                    "Type": "Ally"
+                },
+                "Collider": {
+                    "Type": "Circle",
+                    "Radius": 20.0
+                }
+            },
+            {
+                "Name": "Enemy",
+                "Transform": {
+                    "Position": [
+                        200.0,
+                        200.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        200.0,
+                        200.0
+                    ]
+                },
+                "Physics": {
+                    "Acceleration": [
+                        0.0,
+                        0.0
+                    ],
+                    "Velocity": [
+                        0.0,
+                        0.0
+                    ],
+                    "RotationalVelocity": 0.0
+                },
+                "Sprite": {
+                    "SpriteSource": "EnemyBird",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 2
+                },
+                "Behavior": {
+                    "Type": "Enemy"
+                },
+                "Collider": {
+                    "Type": "Circle",
+                    "Radius": 2.0
+                }
+            },
+            {
+                "Name": "Mouse",
+                "Transform": {
+                    "Position": [
+                        -571.0,
+                        -54.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        40.0,
+                        40.0
+                    ]
+                },
+                "Sprite": {
+                    "SpriteSource": "Ball",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "Zlayer": 1
+                },
+                "Behavior": {
+                    "Type": "Mouse"
+                },
+                "Collider": {
+                    "Type": "Circle",
+                    "Radius": 20.0
+                }
+            }
+        ]
+    }
+}

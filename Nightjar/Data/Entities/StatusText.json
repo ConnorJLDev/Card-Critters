@@ -1,0 +1,27 @@
+{
+	"Entity": {
+		"Name": "StatusText",
+		"Components": {
+
+			"Transform": {
+				"Position": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Scale": [ 1.5, 1.5 ]
+			},
+
+			"SpriteText": {
+				"Tint": [ 1.0, 1.0, 1.0, 1.0 ],
+				"Zlayer": 1,
+				"Text": "STATUS TEXT",
+				"Font": "Happy_Monkey/HappyMonkey-Regular.ttf"
+			},
+
+			"BehaviorFloatingText": {
+				"Speed": 1.0,
+				"Lifetime": 2.5,
+				"Fade": true
+			}
+
+		}
+	}
+}

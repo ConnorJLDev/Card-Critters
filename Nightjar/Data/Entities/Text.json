@@ -1,0 +1,14 @@
+{
+  "Entity": {
+    "Name": "Text",
+    "Components": {
+		"Transform": {},
+		"SpriteText": {
+			"Tint": [0.8,0.8,0.8,1],
+			"Zlayer": 1,
+			"Text": "TEXT",
+			"Font": "Kenney/Kenney Rocket.ttf"
+		}
+    }
+  }
+}

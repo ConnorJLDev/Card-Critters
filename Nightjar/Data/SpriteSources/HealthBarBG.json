@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "HealthBarBG",
+    "Texture": "horizontal_background.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

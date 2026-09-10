@@ -1,0 +1,12 @@
+{
+    "Entity": {
+        "Name": "Audio",
+      "Components": {
+        "Transform": {
+        },
+        "Behavior": {
+          "Type": "Audio"
+        }
+      }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "ClosingTextImage",
+    "Texture": "ClosingText.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

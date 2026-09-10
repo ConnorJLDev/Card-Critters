@@ -1,0 +1,13 @@
+
+REGISTER_BEHAVIOR(BehaviorCharacter)
+REGISTER_BEHAVIOR(BehaviorCard)
+REGISTER_BEHAVIOR(BehaviorHand)
+REGISTER_BEHAVIOR(BehaviorMouse)
+REGISTER_BEHAVIOR(BehaviorParty)
+REGISTER_BEHAVIOR(BehaviorAudio)
+REGISTER_BEHAVIOR(BehaviorMessageBox)
+REGISTER_BEHAVIOR(BehaviorCharacterSelector)
+REGISTER_BEHAVIOR(BehaviorFloatingText)
+REGISTER_BEHAVIOR(BehaviorTransition)
+REGISTER_BEHAVIOR(BehaviorSlider)
+REGISTER_BEHAVIOR(BehaviorSceneTransitionTimer)

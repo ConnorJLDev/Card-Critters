@@ -1,0 +1,46 @@
+{
+    "Entity": {
+        "Name": "Ally2",
+        "Components": {
+            "Transform": {
+                "Position": [
+                    -210.1009979248047,
+                    200.0
+                ],
+                "Rotation": 0.0,
+                "Scale": [
+                    154.5,
+                    200.0
+                ]
+            },
+            "Physics": {
+                "Acceleration": [
+                    0.0,
+                    0.0
+                ],
+                "Velocity": [
+                    0.0,
+                    0.0
+                ],
+                "RotationalVelocity": 0.0
+            },
+            "Behavior": {
+                "Type": "Ally",
+                "Health": 10,
+				"CharacterName": "AllyWolf3",
+                "Cards": [
+                    "CardAttackMedium",
+                    "CardAttackSmall",
+                    "CardAttackBig"
+                ]
+            },
+            "Collider": {
+                "Type": "Circle",
+                "Radius": 20.0
+            },
+          "AudioEmitter": {
+            "Sound": "Defeated"
+          }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"Entity": {
+		"Name": "CardTooltipText",
+		"Components": {
+			"Transform": {
+				"Position": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Scale": [ 0.7, 0.7 ]
+			},
+			"SpriteText": {
+				"Text": "",
+				"Font": "Happy_Monkey/HappyMonkey-Regular.ttf",
+				"Tint": [ 1.0, 1.0, 1.0, 1.0 ],
+				"ZLayer": 6,
+				"TextAlignment": 1.0
+			}
+		}
+	}
+}

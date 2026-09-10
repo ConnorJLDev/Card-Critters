@@ -1,0 +1,8 @@
+{
+  "Sound": {
+    "Name": "Win",
+    "FileName": "Win.ogg",
+    "Type": "Music",
+    "IsLooping":  false
+  }
+}

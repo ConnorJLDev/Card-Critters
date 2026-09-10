@@ -1,0 +1,8 @@
+{
+  "Sound": {
+    "Name": "Hover",
+    "FileName": "Hover.ogg",
+    "Type": "SoundEffect",
+    "IsLooping":  false
+  }
+}

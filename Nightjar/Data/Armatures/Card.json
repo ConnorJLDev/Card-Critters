@@ -1,0 +1,76 @@
+{
+  "Armature": {
+    "Name": "Card",
+    "Bones": [
+      {
+        "Name": "Root",
+        "Translation": [ 0.0, 0.0, 0.0 ],
+        "Rotation": [ 5.960464477539063e-08, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      },
+      {
+        "Name": "TopMid",
+        "Parent": "Root",
+        "Translation": [ 0.0, 1.0, -5.960464477539063e-08 ],
+        "Rotation": [ -5.960464477539063e-08, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      },
+      {
+        "Name": "BotMid",
+        "Parent": "Root",
+        "Translation": [ 0.0, -1.0, 5.960464477539063e-08 ],
+        "Rotation": [ 5.960464477539063e-08, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      },
+      {
+        "Name": "MidMid",
+        "Parent": "Root",
+        "Translation": [ 0.0, 0.0, 0.0 ],
+        "Rotation": [ 0.0, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      },
+      {
+        "Name": "TopRight",
+        "Parent": "Root",
+        "Translation": [ 1.0, 1.0, -5.960464477539063e-08 ],
+        "Rotation": [ -5.960464477539063e-08, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      },
+      {
+        "Name": "BotRight",
+        "Parent": "Root",
+        "Translation": [ 1.0, -1.0, 5.960464477539063e-08 ],
+        "Rotation": [ 5.960464477539063e-08, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      },
+      {
+        "Name": "MidRight",
+        "Parent": "Root",
+        "Translation": [ 1.0, 0.0, 0.0 ],
+        "Rotation": [ 0.0, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      },
+      {
+        "Name": "TopLeft",
+        "Parent": "Root",
+        "Translation": [ -1.0, 1.0, -5.960464477539063e-08 ],
+        "Rotation": [ -5.960464477539063e-08, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      },
+      {
+        "Name": "BotLeft",
+        "Parent": "Root",
+        "Translation": [ -1.0, -1.0, 5.960464477539063e-08 ],
+        "Rotation": [ 5.960464477539063e-08, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      },
+      {
+        "Name": "MidLeft",
+        "Parent": "Root",
+        "Translation": [ -1.0, 0.0, 0.0 ],
+        "Rotation": [ 0.0, -0.0, 0.0 ],
+        "Scale": [ 1.0, 1.0, 1.0 ]
+      }
+    ]
+  }
+}

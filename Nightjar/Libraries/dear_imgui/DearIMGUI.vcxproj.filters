@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{5701c242-71d1-4c6e-80e0-d9f64448a92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{5fd08fb5-227a-40b9-bdb6-1ea34f1f5838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Backends">
+      <UniqueIdentifier>{f95ef846-09cf-48d3-9b58-f94653ec3f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Backends">
+      <UniqueIdentifier>{d95e2f80-5753-4898-87e1-048032c0eb2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\imconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui_internal.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imstb_rectpack.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imstb_textedit.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imstb_truetype.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui_impl_win32.h">
+      <Filter>Include\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui_impl_dx9.h">
+      <Filter>Include\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui_impl_glfw.h">
+      <Filter>Include\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui_impl_opengl3.h">
+      <Filter>Include\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\imgui_impl_opengl3_loader.h">
+      <Filter>Include\Backends</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\implot_internal.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\implot.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\imgui.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_demo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_draw.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_tables.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_widgets.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_impl_win32.cpp">
+      <Filter>Source\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_impl_dx9.cpp">
+      <Filter>Source\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_impl_glfw.cpp">
+      <Filter>Source\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_impl_opengl3.cpp">
+      <Filter>Source\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\implot_items.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\implot.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\implot_demo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

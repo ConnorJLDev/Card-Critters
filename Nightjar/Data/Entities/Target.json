@@ -1,0 +1,19 @@
+{
+  "Entity": {
+    "Name": "Target",
+    "Components": {
+      "Transform": {
+        "Position": [ 0.1, -0.3 ],
+        "Rotation": 0.0,
+        "Scale": [ 1, 1 ]
+      },
+      "Sprite": {
+        "SpriteSource": "arrow",
+        "FrameIndex": 0,
+        "Alpha": 0.6,
+        "Zlayer": 30,
+        "Text": ""
+      }
+    }
+  }
+}

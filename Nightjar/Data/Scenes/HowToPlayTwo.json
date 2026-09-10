@@ -1,0 +1,137 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                    },
+                    "Camera": {
+                    }
+                }
+            },
+            {
+                "Name": "Background",
+                "Archetype": "Background",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            1980.0,
+                            1080.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 11,
+                        "Text": "",
+                        "Tint": [ 0.1, 0.1, 0.1, 1 ]
+                    }
+                }
+            },
+            {
+                "Name": "HowToPlay",
+                "Archetype": "Background",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            1980.0,
+                            1080.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HowToPlayTwo",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 12,
+                        "Text": ""
+                    }
+                }
+            },
+			            {
+                "Name": "Button1",
+                "Archetype": "Button1",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 620, 350.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 13,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "NEXT"
+                        ],
+                        "OnMessagesEnd": "ChangeScene@1:HowToPlayThree"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+                }
+            },
+			{
+                "Name": "Mouse",
+                "Archetype": "Mouse",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ -855.0, 90.44599151611328 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 40.0, 40.0 ]
+                    },
+                    "ColliderCircle": { "Radius": 20.0 },
+                    "Sprite": {
+                        "SpriteSource": "Ball",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 14,
+                        "Text": ""
+                    },
+                    "BehaviorMouse": {}
+                }
+            }
+        ]
+    }
+}

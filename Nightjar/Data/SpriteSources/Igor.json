@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "Igor",
+    "Texture": "Igor.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

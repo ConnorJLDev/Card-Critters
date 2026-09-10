@@ -1,0 +1,12 @@
+{
+  "Card": {
+    "Name": "CardMove",
+    "Card Type": "MOVE",
+    "Damage": 0,
+    "Heal Amount": 0,
+    "Move": 2,
+    "Defense": 0,
+    "Cost": 2,
+    "Sound": "Impact"
+  }
+}

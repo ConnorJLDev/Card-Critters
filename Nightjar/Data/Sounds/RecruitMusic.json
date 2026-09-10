@@ -1,0 +1,8 @@
+{
+  "Sound": {
+    "Name": "RecruitMusic",
+    "FileName": "CopShop-MSmith.ogg",
+    "Type": "Music",
+    "IsLooping":  true
+  }
+}

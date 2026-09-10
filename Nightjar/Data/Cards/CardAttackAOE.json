@@ -1,0 +1,14 @@
+{
+  "Card": {
+    "Name": "CardAttackAOE",
+    "Card Type": "AOE ATTACK",
+    "Damage": 15,
+    "Heal Amount": 0,
+    "Move": 0,
+    "Defense": 0,
+    "Cost": 4,
+	"Accuracy": 95,
+	"Critical Hit Chance": 25,
+    "Sound": "Impact"
+  }
+}

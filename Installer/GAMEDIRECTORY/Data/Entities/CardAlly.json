@@ -1,0 +1,38 @@
+{
+  "Entity": {
+    "Name": "Card",
+    "Components": {
+      "Transform": {
+        "Scale": [
+          200.0,
+          200.0
+        ]
+      },
+      "Physics": {
+      },
+      "Sprite": {
+        "SpriteSource": "wolf card",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+        "Zlayer": 1,
+        "Text": ""
+      },
+      "Behavior": {
+        "Type": "Card"
+      },
+      "Collider": {
+        "Type": "Rect",
+        "Position": [
+          120.0,
+          190.0
+        ]
+      },
+      "Animation": {
+        "Sequence": "CardHover"
+      },
+      "AudioEmitter": {
+        "Sound": "Impact"
+      }
+    }
+  }
+}

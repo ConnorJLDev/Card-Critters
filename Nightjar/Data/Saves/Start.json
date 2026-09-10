@@ -1,0 +1,18 @@
+{
+    "SavedParty": {
+        "Members": [
+            {
+                "Name": "Nero",
+                "Health": 70,
+                "MaxHealth": 70,
+                "Cards": [
+                    "CardAttackBleed",
+                    "CardHeal",
+                    "CardAttackMedium",
+                    "CardAttackDisarm",
+                    "CardAttackBig"
+                ]
+            }
+        ]
+    }
+}

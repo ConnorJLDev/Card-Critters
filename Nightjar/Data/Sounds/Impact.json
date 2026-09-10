@@ -1,0 +1,8 @@
+{
+  "Sound": {
+    "Name": "Impact",
+    "FileName": "Impact.ogg",
+    "Type": "SoundEffect",
+    "IsLooping":  false
+  }
+}

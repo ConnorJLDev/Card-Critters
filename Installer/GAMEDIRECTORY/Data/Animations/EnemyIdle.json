@@ -1,0 +1,30 @@
+{
+	"Animation": {
+		"Name": "EnemyIdle",
+		"Loop": "Loop",
+		"Duration": 2,
+		"Links": [
+			{
+				"Type": "Transform",
+				"Flags": [
+					"TranslationExists",
+					"TranslationXConst",
+					"TranslationZConst"
+				],
+				"Curves": [
+					0, 0, 0
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Linear",
+				"Data": [
+					  0,   0,
+					  1,0.03,
+					  2,   0
+				]
+			}
+		]
+	}
+}

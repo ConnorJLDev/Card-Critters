@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "TempLoseScreen",
+	"Texture": "TempLoseScreen.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

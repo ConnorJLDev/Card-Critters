@@ -1,0 +1,26 @@
+{
+  "Entity": {
+    "Name": "HandBackground",
+    "Components": {
+      "Transform": {
+		  "Position": [
+				200.0,
+				-210.0
+			],
+			"Scale": [
+				1920.0,
+				1000.0
+			]
+      },
+      "Sprite": {
+        "SpriteSource": "HandBackground",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+        "ZLayer": 0,
+        "Text": ""
+      },
+	  "Animation": {
+	  }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardStab",
+			"Card Type": "ATTACK",
+			"Damage": 20,
+			"Heal Amount": 0,
+			"Move": 0,
+			"Defense": 0,
+			"Cost": 2,
+			"Accuracy": 80,
+			"Critical Hit Chance": 10,
+			"Sound":  "Impact"
+    }
+}

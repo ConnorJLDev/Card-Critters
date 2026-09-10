@@ -1,0 +1,7 @@
+{
+  "WindowSize": [1280, 720],
+  "WindowTitle": "Card Critters",
+  "OpenGLVersion": [3, 3],
+  "OpenGLProfile": "Core",
+  "SceneInit": "Level1"
+}

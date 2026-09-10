@@ -1,0 +1,110 @@
+{
+    "Entity": {
+        "Name": "Igor",
+      "Components": {
+        "Transform": {
+          "Position": [
+            333.3330078125,
+            200.0
+          ],
+          "Rotation": 0.0,
+          "Scale": [
+            129.60000610351563,
+            210.99801635742188
+          ]
+        },
+        "Physics": {
+          "Acceleration": [ 0.0, 0.0 ],
+          "Velocity": [ 0.0, 0.0 ],
+          "RotationalVelocity": 0.0
+        },
+        "BehaviorCharacter": {
+          "Health": 40,
+          "CharacterName": "Igor",
+          "Cards": [
+            "CardAttackSmall",
+            "CardAttackSmall",
+            "CardMove"
+          ]
+        },
+        "ColliderCircle": {
+          "Radius": 20.0
+        },
+        "ParticleEmitter": {
+          "Mesh": "Sprite",
+          "Material": "Sprite",
+          "BatchMesh": "",
+          "BatchShader": "",
+          "Animation": "",
+          "EmitIntervalActive": false,
+          "EmitInterval": 0.0,
+          "StartingLifetime": 3.0,
+          "StartingTranslation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StartingRotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StartingScale": [
+            0.25,
+            0.25,
+            1.0
+          ],
+          "StartingVelocity": [
+            0.0,
+            3.0,
+            0.0
+          ],
+          "StartingAcceleration": [
+            0.0,
+            -6.0,
+            0.0
+          ],
+          "StartingRotationalVelocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StartingDrag": 0.0,
+          "StartingRotationalDrag": 0.0,
+          "RandomLifetime": 0.5,
+          "RandomTranslation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "RandomRotation": [
+            0.0,
+            0.0,
+            3.0999999046325684
+          ],
+          "RandomScale": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "RandomVelocity": [
+            1,
+            1,
+            0.0
+          ],
+          "RandomAcceleration": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "RandomRotationalVelocity": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "RandomDrag": 0.0,
+          "RandomRotationalDrag": 0.0
+        }
+      }
+    }
+}

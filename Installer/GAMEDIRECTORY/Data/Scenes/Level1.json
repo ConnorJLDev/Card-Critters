@@ -1,0 +1,117 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Background",
+                "Transform": {
+                    "Position": [
+                        -84.80000305175781,
+                        71.30000305175781
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        2118.39990234375,
+                        1443.5999755859375
+                    ]
+                },
+                "Sprite": {
+                    "SpriteSource": "GameBackdropWIP.jpg",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "ZLayer": -20,
+                    "Text": ""
+                }
+            },
+            {
+                "Name": "Party",
+                "Transform": {
+                    "Position": [
+                        -190.0,
+                        -220.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        1.0,
+                        1.0
+                    ]
+                },
+                "Behavior": {
+                    "Type": "Party",
+                    "Allies": [
+                        "Ally",
+                        "Ally1",
+                        "Ally2"
+                    ],
+					"Enemies": [
+                        "Wolf"
+                    ]
+                }
+            },
+            {
+                "Name": "Hand",
+                "Transform": {
+                    "Position": [
+                        0.0,
+                        -240.0
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        1.0,
+                        1.0
+                    ]
+                },
+                "Behavior": {
+                    "Type": "Hand"
+                }
+            },
+          {
+    "Name": "Audio",
+    "Transform": {
+        "Position": [
+            0.0,
+            0.0
+        ],
+        "Rotation": 0.0,
+        "Scale": [
+            1.0,
+            1.0
+        ]
+    },
+  "Behavior": {
+    "Type": "Audio"
+  },
+  "AudioEmitter": {
+    "Sound": "BattleMusic"
+  }
+},
+            {
+                "Name": "Mouse",
+                "Transform": {
+                    "Position": [
+                        -1208.0,
+                        -228.5
+                    ],
+                    "Rotation": 0.0,
+                    "Scale": [
+                        40.0,
+                        40.0
+                    ]
+                },
+                "Sprite": {
+                    "SpriteSource": "Ball",
+                    "FrameIndex": 0,
+                    "Alpha": 1.0,
+                    "ZLayer": 1,
+                    "Text": ""
+                },
+                "Behavior": {
+                    "Type": "Mouse"
+                },
+                "Collider": {
+                    "Type": "Circle",
+                    "Radius": 20.0
+                }
+            }
+        ]
+    }
+}

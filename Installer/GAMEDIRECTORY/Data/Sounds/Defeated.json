@@ -1,0 +1,8 @@
+{
+  "Sound": {
+    "Name": "Defeated",
+    "FileName": "Defeated.ogg",
+    "Type": "SoundEffect",
+    "IsLooping":  false
+  }
+}

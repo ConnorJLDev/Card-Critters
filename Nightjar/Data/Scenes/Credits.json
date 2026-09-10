@@ -1,0 +1,164 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                    },
+                    "Camera": {
+                    }
+                }
+            },
+            {
+                "Name": "Credits",
+                "Archetype": "Credits",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            -2160.0
+                        ],
+                        "Rotation": 0,
+                        "Scale": [
+                            1920.0,
+                            5400.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            90.0
+                        ],
+                        "RotationalVelocity": 0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "Credits",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 1,
+                        "Text": ""
+                    }
+                }
+            },
+            {
+                "Name": "Audio",
+                "Archetype": "Audio",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 0.0,
+                        "Scale": [
+                            1.0,
+                            1.0
+                        ]
+                    },
+                    "AudioEmitter": {
+                        "Sound": "BattleMusic"
+                    },
+                    "BehaviorAudio": {}
+                }
+            },
+            {
+                "Name": "Button",
+                "Archetype": "Button",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ -740.0, -480.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 2,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "BACK"
+                        ],
+                        "OnMessagesEnd": "TransitionScene:MainMenu"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+
+                }
+            },
+            {
+                "Name": "Blank",
+                "Archetype": "Blank",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, 0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 1920.0, 1080.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 0,
+                        "Text": "",
+                        "Tint": [ 0.0, 0.0, 0.0 ]
+                    }
+                }
+            },
+            {
+                "Name": "TimerEntity",
+                "Archetype": "TimerEntity",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 702.3141479492188,
+                        "Scale": [
+                            3000.0,
+                            3000.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 0.0,
+                        "ZLayer": 0,
+                        "Text": "",
+                        "Tint": [ 0.0, 0.0, 0.0, 1 ]
+                    },
+                    "BehaviorSceneTransitionTimer": {
+                        "Time": 0,
+                        "TimerEnd": 63,
+                        "NextSceneName": "MainMenu"
+                    }
+                }
+            }
+        ]
+    }
+}

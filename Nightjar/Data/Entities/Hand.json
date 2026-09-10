@@ -1,0 +1,16 @@
+{
+  "Entity": {
+    "Name": "Hand",
+    "Components": {
+        "Transform": {
+            "Position": [
+                100.0,
+                20.0
+            ]
+        },
+            "BehaviorHand": {
+
+            }
+        }
+    }
+}

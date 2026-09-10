@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "CardAccuracyIcon",
+    "Texture": "CardAccuracyIcon.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

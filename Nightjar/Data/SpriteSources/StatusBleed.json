@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "StatusBleed",
+    "Texture": "BleedIcon.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

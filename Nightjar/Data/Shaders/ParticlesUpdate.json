@@ -1,0 +1,8 @@
+{
+  "Shader": {
+    "Name": "ParticlesUpdate",
+	"Vertex": "Particles/Update",
+	"Geometry": "Particles/Update",
+	"Fragment": ""
+  }
+}

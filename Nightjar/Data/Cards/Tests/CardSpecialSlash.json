@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardSpecialSlash",
+			"Card Type": "Attack",
+			"Damage": 100,
+			"Heal Amount": 0,
+			"Move": 0,
+			"Defense": 0,
+			"Cost": 5,
+			"Accuracy": 70,
+			"Critical Hit Chance": 25,
+			"Sound":  "Impact"
+    }
+}

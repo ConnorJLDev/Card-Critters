@@ -1,0 +1,26 @@
+{
+  "Entity": {
+    "Name": "EnergyIcon",
+    "Components": {
+      "Transform": {
+		  "Position": [
+				-570.0,
+				-202.0
+			],
+			"Scale": [
+				140.0,
+				180.0
+			]
+      },
+      "Sprite": {
+        "SpriteSource": "EnergyIconFull",
+        "FrameIndex": 0,
+        "Alpha": 1.0,
+        "ZLayer": 5,
+        "Text": ""
+      },
+	  "Animation": {
+	  }
+    }
+  }
+}

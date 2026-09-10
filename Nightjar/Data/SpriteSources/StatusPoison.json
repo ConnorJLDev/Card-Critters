@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "StatusPoison",
+    "Texture": "PoisonIcon.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

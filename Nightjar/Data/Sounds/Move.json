@@ -1,0 +1,8 @@
+{
+  "Sound": {
+    "Name": "Move",
+    "FileName": "Move.ogg",
+    "Type": "SoundEffect",
+    "IsLooping": false
+  }
+}

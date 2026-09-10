@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "wolf3 card",
+	"Texture": "wolf3 card.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

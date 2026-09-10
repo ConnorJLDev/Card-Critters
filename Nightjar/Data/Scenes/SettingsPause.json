@@ -1,0 +1,214 @@
+{
+    "Scene": {
+        "Entities": [
+            {
+                "Name": "Camera",
+                "Archetype": "Camera",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                    },
+                    "Camera": {
+                    }
+                }
+            },
+            {
+                "Name": "PauseBackground",
+                "Archetype": "PauseBackground",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [
+                            0.0,
+                            0.0
+                        ],
+                        "Rotation": 702.3141479492188,
+                        "Scale": [
+                            3000.0,
+                            3000.0
+                        ]
+                    },
+                    "Physics": {
+                        "Acceleration": [
+                            0.0,
+                            0.0
+                        ],
+                        "Velocity": [
+                            0.0,
+                            0.0
+                        ],
+                        "RotationalVelocity": 0.0
+                    },
+                    "Sprite": {
+                        "SpriteSource": "BLANK",
+                        "FrameIndex": 0,
+                        "Alpha": 0.91,
+                        "ZLayer": 17,
+                        "Text": "",
+                        "Tint": [ 0.1, 0.1, 0.1, 1 ]
+                    }
+                }
+            },
+            {
+                "Name": "SettingsText",
+                "Archetype": "Text",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, 250 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 650.0, 650.0 ]
+                    },
+                    "SpriteText": {
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": "SETTINGS",
+                        "Font": "Happy_Monkey/HappyMonkey-Regular.ttf"
+                    }
+                }
+            },
+            {
+                "Name":  "MusicSlider",
+                "Archetype":  "Slider",
+                "Scene Write":  true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0.0, 75.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": "MUSIC VOLUME"
+                    },
+                    "BehaviorSlider": {
+                      "SaveValue": "Music",
+                      "SliderTitle":  "MUSIC VOLUME"
+
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.35 ] }
+                }
+            },
+            {
+                "Name":  "SFXSlider",
+                "Archetype":  "Slider",
+                "Scene Write":  true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0.0, -75.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": ""
+                    },
+                    "BehaviorSlider": {
+                      "SaveValue": "SFX",
+                      "SliderTitle":  "SFX VOLUME"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.35 ] }
+                }
+            },
+            {
+                "Name": "FullscreenButton",
+                "Archetype": "Button",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -200.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            ""
+                        ],
+                        "OnMessagesEnd": "ToggleFullscreen"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+
+                }
+            },
+            {
+                "Name": "FullscreenLabel",
+                "Archetype": "Text",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -185.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 300.0, 300.0 ]
+                    },
+                    "SpriteText": {
+                        "Tint": [1,1,1,1],
+                        "ZLayer": 18,
+                        "Text": "  TOGGLE\nFULLSCREEN",
+                        "Font": "Happy_Monkey/HappyMonkey-Regular.ttf"
+                    }
+                }
+            },
+            {
+                "Name": "ExitButton",
+                "Archetype": "Button",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ 0, -320.0 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 370.0, 390.0 ]
+                    },
+                    "Sprite": {
+                        "SpriteSource": "HandBackground",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 18,
+                        "Text": ""
+                    },
+                    "BehaviorMessageBox": {
+                        "Messages": [
+                            "RETURN"
+                        ],
+                        "OnMessagesEnd": "ChangeScene@1:Pause"
+                    },
+                    "ColliderRect": { "Size": [ 1, 0.2 ] }
+
+                }
+            },
+            {
+                "Name": "Mouse",
+                "Archetype": "Mouse",
+                "Scene Write": true,
+                "Components": {
+                    "Transform": {
+                        "Position": [ -855.0, 90.44599151611328 ],
+                        "Rotation": 0.0,
+                        "Scale": [ 40.0, 40.0 ]
+                    },
+                    "ColliderCircle": { "Radius": 20.0 },
+                    "Sprite": {
+                        "SpriteSource": "Ball",
+                        "FrameIndex": 0,
+                        "Alpha": 1.0,
+                        "ZLayer": 21,
+                        "Text": ""
+                    },
+                    "BehaviorMouse": {}
+                }
+            }
+        ]
+    }
+}

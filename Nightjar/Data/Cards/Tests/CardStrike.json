@@ -1,0 +1,14 @@
+{
+    "Card": {
+			"Name": "CardStrike",
+			"Card Type": "ATTACK",
+			"Damage": 20,
+			"Heal Amount": 0,
+			"Move": 0,
+			"Defense": 0,
+			"Cost": 2,
+			"Accuracy": 90,
+			"Critical Hit Chance": 10,
+			"Sound":  "Impact"
+    }
+}

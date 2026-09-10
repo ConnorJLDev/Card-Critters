@@ -1,0 +1,29 @@
+{
+  "Entity": {
+    "Name": "Enemy",
+    "Components": {
+      "Transform": {
+        "Position": [ 200.0, 200.0 ],
+        "Rotation": 0.0,
+        "Scale": [ 150.0, 200.0 ]
+      },
+      "Physics": {
+        "Acceleration": [ 0.0, 0.0 ],
+        "Velocity": [ 0.0, 0.0 ],
+        "RotationalVelocity": 0.0
+      },
+      "Behavior": {
+        "Type": "Enemy",
+        "Health": 3,
+        "CharacterName": "EnemyWolf"
+      },
+      "Collider": {
+        "Type": "Circle",
+        "Radius": 2.0
+      },
+      "AudioEmitter": {
+        "Sound": "Death"
+      }
+    }
+  }
+}

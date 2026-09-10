@@ -1,0 +1,8 @@
+{
+  "Sound": {
+    "Name": "Death",
+    "FileName": "Death.ogg",
+    "Type": "SoundEffect",
+    "IsLooping":  false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "FmodLogo",
+    "Texture": "FmodLogo.png",
+    "Rows": 1,
+    "Columns": 1
+  }
+}

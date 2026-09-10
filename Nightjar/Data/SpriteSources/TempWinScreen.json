@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "TempWinScreen",
+	"Texture": "TempWinScreen.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

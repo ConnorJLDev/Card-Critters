@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "TitleScreen",
+	"Texture": "TitleScreen.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

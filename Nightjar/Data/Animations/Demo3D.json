@@ -1,0 +1,93 @@
+{
+	"Animation": {
+		"Name": "Demo3D",
+		"Loop": "Mirror",
+		"Duration": 10,
+		"Links": [
+			{
+				"Type": "Model",
+				"Bones": [
+				{
+					"Name": "Root",
+					"Flags": [
+						"ScaleExists",
+						"ScaleUniform",
+						"ScaleConst",
+						"RotationExists",
+						"TranslationExists",
+						"TranslationYConst",
+						"TranslationZConst"
+					]
+				}
+				],
+				"Curves": [
+					1,
+					4, 4, 1,
+					0, 0, 0
+				]
+			},
+			{
+				"Type": "Material",
+				"Name": "Suzanne",
+				"Properties": [
+					{
+						"Name": "colorAdd",
+						"Type": "Vec4",
+						"Const": [ false, false, false, true ]
+					}
+				],
+				"Curves": [
+					5, 5, 5, 1
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Linear",
+				"Data": [
+					0, 0, -5,
+					2, -5, 10,
+					6, 5, -10,
+					10, -5, 0
+				]
+			},
+			{
+				"Type": "Cubic",
+				"Data": [
+					  0, 0, 2, 3,   0,
+					10, 0, 3,   0,   0
+				]
+			},
+			{
+				"Type": "Cubic",
+				"Data": [
+					  0, 0, 1, 0,   0,
+					10, 0, 2,   0,   0
+				]
+			},
+			{
+				"Type": "Cubic",
+				"Data": [
+					  0, 0, 2, 0,   0,
+					10, 0, 1,   0,   0
+				]
+			},
+			{
+				"Type": "Linear",
+				"Data": [
+					  0, 0, 0.5,
+					10, 10, 0
+				]
+			},
+			{
+				"Type": "Linear",
+				"Data": [
+					0, 1, 0,
+					1, 1, -1,
+					2, 0, 0,
+					10, 0, 0
+				]
+			}
+		]
+	}
+}

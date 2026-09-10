@@ -1,0 +1,48 @@
+{
+	"Animation": {
+		"Name": "CardHover",
+		"Loop": "Stop",
+		"Duration": 0.15,
+		"Links": [
+			{
+				"Type": "Transform",
+				"Flags": [
+					"ScaleExists",
+					"ScaleUniform"
+				],
+				"Curves": [
+					0
+				]
+			},
+			{
+				"Type": "Sprite",
+				"Flags": [
+					"RedExists",
+					"GreenExists",
+					"BlueExists"
+				],
+				"Curves": [
+					1,
+					1,
+					1
+				]
+			}
+		],
+		"Curves": [
+			{
+				"Type": "Cubic",
+				"Data": [
+					   0, 200, 300, -300, 100,
+					0.15, 300,   0,    0,   0
+				]
+			},
+			{
+				"Type": "Linear",
+				"Data": [
+					   0, 0.5,
+					0.15,   1
+				]
+			}
+		]
+	}
+}

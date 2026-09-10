@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11626.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CardCritters", "Nightjar\Nightjar.vcxproj", "{BB7BEB4B-0403-45C4-AD05-AFA9ED14B1D4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6} = {41DC1696-2393-414B-A4A6-656D9AAC41F6}
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B} = {45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}
+		{915875E5-216D-4034-98FB-35DB330C8B7A} = {915875E5-216D-4034-98FB-35DB330C8B7A}
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50} = {BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}
+		{E048F29F-98F7-30BF-8463-150A51D89122} = {E048F29F-98F7-30BF-8463-150A51D89122}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeType", "Nightjar\Libraries\freetype\FreeType.vcxproj", "{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DearIMGUI", "Nightjar\Libraries\Dear_IMGUI\DearIMGUI.vcxproj", "{915875E5-216D-4034-98FB-35DB330C8B7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glad", "Nightjar\Libraries\glad\glad.vcxproj", "{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "Nightjar\Libraries\glfw\glfw.vcxproj", "{E048F29F-98F7-30BF-8463-150A51D89122}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{7BF6EEFD-5139-440B-9F99-E7DBC23BA95F}"
+	ProjectSection(SolutionItems) = preProject
+		Templates\InstallTemplates.bat = Templates\InstallTemplates.bat
+		Templates\TemplateBehavior.cpp = Templates\TemplateBehavior.cpp
+		Templates\TemplateBehavior.h = Templates\TemplateBehavior.h
+		Templates\TemplateBehavior.vstemplate = Templates\TemplateBehavior.vstemplate
+		Templates\TemplateComponent.cpp = Templates\TemplateComponent.cpp
+		Templates\TemplateComponent.h = Templates\TemplateComponent.h
+		Templates\TemplateComponent.vstemplate = Templates\TemplateComponent.vstemplate
+		Templates\TemplateEditor.cpp = Templates\TemplateEditor.cpp
+		Templates\TemplateObject.cpp = Templates\TemplateObject.cpp
+		Templates\TemplateObject.h = Templates\TemplateObject.h
+		Templates\TemplateObject.inl = Templates\TemplateObject.inl
+		Templates\TemplateObject.vstemplate = Templates\TemplateObject.vstemplate
+		Templates\TemplateSystem.cpp = Templates\TemplateSystem.cpp
+		Templates\TemplateSystem.h = Templates\TemplateSystem.h
+		Templates\TemplateSystem.vstemplate = Templates\TemplateSystem.vstemplate
+		Templates\__TemplateIcon.ico = Templates\__TemplateIcon.ico
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fmod", "Nightjar\Libraries\fmod\fmod.vcxproj", "{41DC1696-2393-414B-A4A6-656D9AAC41F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB7BEB4B-0403-45C4-AD05-AFA9ED14B1D4}.Debug|x64.ActiveCfg = Debug|x64
+		{BB7BEB4B-0403-45C4-AD05-AFA9ED14B1D4}.Debug|x64.Build.0 = Debug|x64
+		{BB7BEB4B-0403-45C4-AD05-AFA9ED14B1D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB7BEB4B-0403-45C4-AD05-AFA9ED14B1D4}.Debug|x86.Build.0 = Debug|Win32
+		{BB7BEB4B-0403-45C4-AD05-AFA9ED14B1D4}.Release|x64.ActiveCfg = Release|x64
+		{BB7BEB4B-0403-45C4-AD05-AFA9ED14B1D4}.Release|x64.Build.0 = Release|x64
+		{BB7BEB4B-0403-45C4-AD05-AFA9ED14B1D4}.Release|x86.ActiveCfg = Release|Win32
+		{BB7BEB4B-0403-45C4-AD05-AFA9ED14B1D4}.Release|x86.Build.0 = Release|Win32
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}.Debug|x64.ActiveCfg = Debug|x64
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}.Debug|x64.Build.0 = Debug|x64
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}.Debug|x86.ActiveCfg = Debug|Win32
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}.Debug|x86.Build.0 = Debug|Win32
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}.Release|x64.ActiveCfg = Release|x64
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}.Release|x64.Build.0 = Release|x64
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}.Release|x86.ActiveCfg = Release|Win32
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B}.Release|x86.Build.0 = Release|Win32
+		{915875E5-216D-4034-98FB-35DB330C8B7A}.Debug|x64.ActiveCfg = Debug|x64
+		{915875E5-216D-4034-98FB-35DB330C8B7A}.Debug|x64.Build.0 = Debug|x64
+		{915875E5-216D-4034-98FB-35DB330C8B7A}.Debug|x86.ActiveCfg = Debug|Win32
+		{915875E5-216D-4034-98FB-35DB330C8B7A}.Debug|x86.Build.0 = Debug|Win32
+		{915875E5-216D-4034-98FB-35DB330C8B7A}.Release|x64.ActiveCfg = Release|x64
+		{915875E5-216D-4034-98FB-35DB330C8B7A}.Release|x64.Build.0 = Release|x64
+		{915875E5-216D-4034-98FB-35DB330C8B7A}.Release|x86.ActiveCfg = Release|Win32
+		{915875E5-216D-4034-98FB-35DB330C8B7A}.Release|x86.Build.0 = Release|Win32
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}.Debug|x64.ActiveCfg = Debug|x64
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}.Debug|x64.Build.0 = Debug|x64
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}.Debug|x86.Build.0 = Debug|Win32
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}.Release|x64.ActiveCfg = Release|x64
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}.Release|x64.Build.0 = Release|x64
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}.Release|x86.ActiveCfg = Release|Win32
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50}.Release|x86.Build.0 = Release|Win32
+		{E048F29F-98F7-30BF-8463-150A51D89122}.Debug|x64.ActiveCfg = Debug|x64
+		{E048F29F-98F7-30BF-8463-150A51D89122}.Debug|x64.Build.0 = Debug|x64
+		{E048F29F-98F7-30BF-8463-150A51D89122}.Debug|x86.ActiveCfg = Debug|Win32
+		{E048F29F-98F7-30BF-8463-150A51D89122}.Debug|x86.Build.0 = Debug|Win32
+		{E048F29F-98F7-30BF-8463-150A51D89122}.Release|x64.ActiveCfg = Release|x64
+		{E048F29F-98F7-30BF-8463-150A51D89122}.Release|x64.Build.0 = Release|x64
+		{E048F29F-98F7-30BF-8463-150A51D89122}.Release|x86.ActiveCfg = Release|Win32
+		{E048F29F-98F7-30BF-8463-150A51D89122}.Release|x86.Build.0 = Release|Win32
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6}.Debug|x64.ActiveCfg = Debug|x64
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6}.Debug|x64.Build.0 = Debug|x64
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6}.Debug|x86.Build.0 = Debug|Win32
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6}.Release|x64.ActiveCfg = Release|x64
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6}.Release|x64.Build.0 = Release|x64
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6}.Release|x86.ActiveCfg = Release|Win32
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45556EFF-F8E2-4086-ADD6-A5EC4CA3154B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{915875E5-216D-4034-98FB-35DB330C8B7A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BB0D6153-7B9D-4D5A-BECC-4731FF0F6B50} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E048F29F-98F7-30BF-8463-150A51D89122} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{41DC1696-2393-414B-A4A6-656D9AAC41F6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {813E4A72-A4D7-4425-AEC6-CB25AEA3C326}
+	EndGlobalSection
+EndGlobal

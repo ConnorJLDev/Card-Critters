@@ -1,0 +1,8 @@
+{
+  "SpriteSource": {
+    "Name": "TempMainMenu",
+	"Texture": "TempMainMenu.png",
+	"Rows": 1,
+	"Columns": 1
+  }
+}

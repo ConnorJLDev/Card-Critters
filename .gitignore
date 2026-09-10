@@ -1,0 +1,20 @@
+﻿# Ignore temporary/local solution and project files
+.vs/
+Build/
+*.vcxproj.user
+
+# Ignore files created at runtime
+Trace.*
+imgui.ini
+
+# Ignore temporary zip files in Templates folder
+/Templates/*.zip
+
+# Ignore Microsoft Office temporary files
+~$*
+/Nightjar/x64
+/x64
+*.lnk
+
+# Ignore Windows Performance Analyzer results
+*.etl
